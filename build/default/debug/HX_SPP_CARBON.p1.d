@@ -1,0 +1,20 @@
+ build/default/debug/HX_SPP_CARBON.d  \
+ build/default/debug/HX_SPP_CARBON.p1:  \
+ HX_SPP_CARBON.c  \
+mcc_generated_files/mcc.h  \
+mcc_generated_files/eusart1.h  \
+mcc_generated_files/../mcc_generated_files/eusart1.h  \
+mcc_generated_files/../HX_CommStd.h  \
+HX_DeviceProperties.h  \
+mcc_generated_files/../HX_DeviceProperties.h  \
+mcc_generated_files/memory.h  \
+mcc_generated_files/i2c1.h  \
+HX_SPP_CARBON.h  \
+mcc_generated_files/interrupt_manager.h  \
+mcc_generated_files/../mcc_generated_files/tmr0.h  \
+mcc_generated_files/tmr0.h  \
+mcc_generated_files/pin_manager.h  \
+mcc_generated_files/../HX_CommInterface.h  \
+mcc_generated_files/../mcc_generated_files/../HX_CommInterface.h  \
+HX_CommStd.h  \
+mcc_generated_files/../HX_SPP_CARBON.h 

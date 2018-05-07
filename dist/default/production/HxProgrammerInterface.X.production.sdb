@@ -1,0 +1,2243 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F47K40 ]
+[d frameptr 4065 ]
+"8 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\EEPROM.c
+[e E11630 . `uc
+EEPROM_WRITE_SUCCESS 0
+EEPROM_WRITE_FAIL 1
+EEPROM_READ_SUCCESS 2
+EEPROM_READ_FAIL 3
+EEPROM_ERASE_SUCCESS 4
+EEPROM_ERASE_FAIL 5
+EEPROM_OUT_OF_BOUNDS 6
+]
+"7 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\Utils.c
+[e E11632 . `uc
+I2C1_MESSAGE_COMPLETE 0
+I2C1_MESSAGE_FAIL 1
+I2C1_MESSAGE_PENDING 2
+I2C1_STUCK_START 3
+I2C1_MESSAGE_ADDRESS_NO_ACK 4
+I2C1_DATA_NO_ACK 5
+I2C1_LOST_STATE 6
+I2C1_QUEUE_FULL 7
+]
+"427 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_ASL_BORON.c
+[e E11753 . `uc
+I2C1_MESSAGE_COMPLETE 0
+I2C1_MESSAGE_FAIL 1
+I2C1_MESSAGE_PENDING 2
+I2C1_STUCK_START 3
+I2C1_MESSAGE_ADDRESS_NO_ACK 4
+I2C1_DATA_NO_ACK 5
+I2C1_LOST_STATE 6
+I2C1_QUEUE_FULL 7
+]
+"30 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_I2C.c
+[e E11753 . `uc
+I2C1_MESSAGE_COMPLETE 0
+I2C1_MESSAGE_FAIL 1
+I2C1_MESSAGE_PENDING 2
+I2C1_STUCK_START 3
+I2C1_MESSAGE_ADDRESS_NO_ACK 4
+I2C1_DATA_NO_ACK 5
+I2C1_LOST_STATE 6
+I2C1_QUEUE_FULL 7
+]
+"184 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/i2c1.c
+[e E11632 . `uc
+I2C1_MESSAGE_COMPLETE 0
+I2C1_MESSAGE_FAIL 1
+I2C1_MESSAGE_PENDING 2
+I2C1_STUCK_START 3
+I2C1_MESSAGE_ADDRESS_NO_ACK 4
+I2C1_DATA_NO_ACK 5
+I2C1_LOST_STATE 6
+I2C1_QUEUE_FULL 7
+]
+"186
+[e E11701 . `uc
+S_MASTER_IDLE 0
+S_MASTER_RESTART 1
+S_MASTER_SEND_ADDR 2
+S_MASTER_SEND_DATA 3
+S_MASTER_SEND_STOP 4
+S_MASTER_ACK_ADDR 5
+S_MASTER_RCV_DATA 6
+S_MASTER_RCV_STOP 7
+S_MASTER_ACK_RCV_DATA 8
+S_MASTER_NOACK_STOP 9
+S_MASTER_SEND_ADDR_10BIT_LSB 10
+S_MASTER_10BIT_RESTART 11
+]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"7 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\EEPROM.c
+[v _EEPROM_WriteByte EEPROM_WriteByte `(E11630  1 e 1 0 ]
+"38
+[v _EEPROM_ReadByte EEPROM_ReadByte `(E11630  1 e 1 0 ]
+"58
+[v _EEPROM_EraseBlock EEPROM_EraseBlock `(E11630  1 e 1 0 ]
+"17 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_ASL_BORON.c
+[v _run_ASLBoron run_ASLBoron `(v  1 e 1 0 ]
+"105
+[v _write_ASLBoron_test write_ASLBoron_test `(v  1 e 1 0 ]
+"251
+[v _write_ASLBoron_cnfg write_ASLBoron_cnfg `(v  1 e 1 0 ]
+"272
+[v _write_ASLBoron_cstm_cnfg write_ASLBoron_cstm_cnfg `(v  1 e 1 0 ]
+"277
+[v _write_ASLBoron_debug write_ASLBoron_debug `(v  1 e 1 0 ]
+"342
+[v _ASLB_ContinuityESD ASLB_ContinuityESD `(v  1 e 1 0 ]
+"347
+[v _ASLB_SheetResistance ASLB_SheetResistance `(v  1 e 1 0 ]
+"396
+[v _ASLB_HeaterFunctionality ASLB_HeaterFunctionality `(v  1 e 1 0 ]
+"459
+[v _ASLB_AnalogMuxReadingSetup ASLB_AnalogMuxReadingSetup `(v  1 e 1 0 ]
+"491
+[v _ASLB_CTHERM ASLB_CTHERM `(v  1 e 1 0 ]
+"512
+[v _ASLB_ADCReferenceVoltage ASLB_ADCReferenceVoltage `(v  1 e 1 0 ]
+"533
+[v _ASLB_HeaterFBSignals ASLB_HeaterFBSignals `(v  1 e 1 0 ]
+"555
+[v _ASLB_InternalTempSensor ASLB_InternalTempSensor `(v  1 e 1 0 ]
+"575
+[v _ASLB_MuxReadingVDD ASLB_MuxReadingVDD `(v  1 e 1 0 ]
+"593
+[v _ASLB_DACReferenceVoltage ASLB_DACReferenceVoltage `(v  1 e 1 0 ]
+"611
+[v _ASLB_VaricapDACVoltage ASLB_VaricapDACVoltage `(v  1 e 1 0 ]
+"631
+[v _ASLB_TempSetDACVoltage ASLB_TempSetDACVoltage `(v  1 e 1 0 ]
+"668
+[v _ASLB_CurrentLimitDACVoltage ASLB_CurrentLimitDACVoltage `(v  1 e 1 0 ]
+"701
+[v _ASLB_DigitalRegulatorVoltage ASLB_DigitalRegulatorVoltage `(v  1 e 1 0 ]
+"719
+[v _ASLB_ZTCReferenceCurrent ASLB_ZTCReferenceCurrent `(v  1 e 1 0 ]
+"738
+[v _ASLB_MuxOpenCircuit ASLB_MuxOpenCircuit `(v  1 e 1 0 ]
+"756
+[v _ASLB_OscillatorRegulatorVoltage ASLB_OscillatorRegulatorVoltage `(v  1 e 1 0 ]
+"772
+[v _ASLB_ExternalReferenceVoltage ASLB_ExternalReferenceVoltage `(v  1 e 1 0 ]
+"788
+[v _ASLB_VaricapBiasSteering ASLB_VaricapBiasSteering `(v  1 e 1 0 ]
+"801
+[v _ASLB_ColpittsOscillator ASLB_ColpittsOscillator `(v  1 e 1 0 ]
+"812
+[v _ASLB_PierceOscillator ASLB_PierceOscillator `(v  1 e 1 0 ]
+"823
+[v _ASLB_RDResistor ASLB_RDResistor `(v  1 e 1 0 ]
+"834
+[v _ASLB_CFCVVaricap ASLB_CFCVVaricap `(v  1 e 1 0 ]
+"845
+[v _ASLB_CommonGate ASLB_CommonGate `(v  1 e 1 0 ]
+"856
+[v _ASLB_ADC ASLB_ADC `(v  1 e 1 0 ]
+"874
+[v _ASLB_cnfg0 ASLB_cnfg0 `(v  1 e 1 0 ]
+"879
+[v _ASLB_cnfg1 ASLB_cnfg1 `(v  1 e 1 0 ]
+"884
+[v _ASLB_debug0 ASLB_debug0 `(v  1 e 1 0 ]
+"896
+[v _ASLB_debug1 ASLB_debug1 `(v  1 e 1 0 ]
+"976
+[v _ASLB_debug2 ASLB_debug2 `(v  1 e 1 0 ]
+"989
+[v _ASLB_debug3 ASLB_debug3 `(v  1 e 1 0 ]
+"1010
+[v _setCommSingleWire setCommSingleWire `(v  1 e 1 0 ]
+"1015
+[v _setCommI2C setCommI2C `(v  1 e 1 0 ]
+"1020
+[v _findMaxI2CSpeed findMaxI2CSpeed `(v  1 e 1 0 ]
+"1088
+[v _calcBaudRate calcBaudRate `(ui  1 e 2 0 ]
+"1120
+[v _cycleBoronPower cycleBoronPower `(v  1 e 1 0 ]
+"1127
+[v _adjustI2CBaudRate adjustI2CBaudRate `(uc  1 e 1 0 ]
+"1145
+[v _setTempCtrlDAC setTempCtrlDAC `(uc  1 e 1 0 ]
+"1168
+[v _setCurrLimitDAC setCurrLimitDAC `(uc  1 e 1 0 ]
+"1187
+[v _setupLatchPkt setupLatchPkt `(v  1 e 1 0 ]
+"1201
+[v _setupCmdReadbackPkt setupCmdReadbackPkt `(v  1 e 1 0 ]
+"1243
+[v _checkAndSendLatchData checkAndSendLatchData `(uc  1 e 1 0 ]
+"1453
+[v _filterLatchPacketResponses filterLatchPacketResponses `(uc  1 e 1 0 ]
+"1481
+[v _resetSFRData resetSFRData `(v  1 e 1 0 ]
+"1526
+[v _resetLATCHData resetLATCHData `(v  1 e 1 0 ]
+"18 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_CommInterface.c
+[v _HX_Initialize HX_Initialize `(v  1 e 1 0 ]
+"28
+[v _hxISRHandle hxISRHandle `(v  1 e 1 0 ]
+"105
+[v _hxCmdFilter hxCmdFilter `(v  1 e 1 0 ]
+"207
+[v _hxSetupPacket1 hxSetupPacket1 `(v  1 e 1 0 ]
+"216
+[v _hxSetupPacket2 hxSetupPacket2 `(v  1 e 1 0 ]
+"229
+[v _hxHandleTxUART hxHandleTxUART `(v  1 e 1 0 ]
+"248
+[v _hxHandleTmr0 hxHandleTmr0 `(v  1 e 1 0 ]
+"264
+[v _hxStartTimer hxStartTimer `(v  1 e 1 0 ]
+"270
+[v _hxStopTimer hxStopTimer `(v  1 e 1 0 ]
+[v i2_hxStopTimer hxStopTimer `(v  1 e 1 0 ]
+"276
+[v _hxFlushInputBuffer hxFlushInputBuffer `(v  1 e 1 0 ]
+[v i2_hxFlushInputBuffer hxFlushInputBuffer `(v  1 e 1 0 ]
+"283
+[v _hxFlushOutputBuffer hxFlushOutputBuffer `(v  1 e 1 0 ]
+[v i2_hxFlushOutputBuffer hxFlushOutputBuffer `(v  1 e 1 0 ]
+"289
+[v _hxFlushMainDataBuffer hxFlushMainDataBuffer `(v  1 e 1 0 ]
+[v i2_hxFlushMainDataBuffer hxFlushMainDataBuffer `(v  1 e 1 0 ]
+"295
+[v _hxCalcChecksum hxCalcChecksum `(uc  1 e 1 0 ]
+"306
+[v _hxClearArray hxClearArray `(v  1 e 1 0 ]
+[v i2_hxClearArray hxClearArray `(v  1 e 1 0 ]
+"14 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_I2C.c
+[v _run_I2C run_I2C `(v  1 e 1 0 ]
+"28 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_SPP.c
+[v _hxSPP hxSPP `(v  1 e 1 0 ]
+"3 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_SPP_CARBON.c
+[v _run_SPPCarbon_test run_SPPCarbon_test `(v  1 e 1 0 ]
+"112
+[v _hxSPPCarbonWriteAndVerity_test hxSPPCarbonWriteAndVerity_test `(v  1 e 1 0 ]
+"146
+[v _hxSPPCarbonWrite_test hxSPPCarbonWrite_test `(v  1 e 1 0 ]
+"161
+[v _hxSPPCarbonRead_test hxSPPCarbonRead_test `(v  1 e 1 0 ]
+"175
+[v _hxSPPCarbonReadReg_test hxSPPCarbonReadReg_test `(uc  1 e 1 0 ]
+"377
+[v _hxSPPCarbonWriteReg_test hxSPPCarbonWriteReg_test `(uc  1 e 1 0 ]
+"483
+[v _hxSPPCarbonProgram_test hxSPPCarbonProgram_test `(v  1 e 1 0 ]
+"593
+[v _hxSPPCarbonCheckBusy_test hxSPPCarbonCheckBusy_test `(v  1 e 1 0 ]
+"795
+[v _hxOddParityCalc hxOddParityCalc `(uc  1 e 1 0 ]
+"57 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"76 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"144
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"170
+[v _EUSART1_Transmit_ISR EUSART1_Transmit_ISR `(v  1 e 1 0 ]
+"190
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+"198 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/i2c1.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"235
+[v _I2C1_ISR I2C1_ISR `(v  1 e 1 0 ]
+"565
+[v _I2C1_FunctionComplete I2C1_FunctionComplete `(v  1 e 1 0 ]
+"583
+[v _I2C1_Stop I2C1_Stop `(v  1 e 1 0 ]
+"600
+[v _I2C1_MasterWrite I2C1_MasterWrite `(v  1 e 1 0 ]
+"621
+[v _I2C1_MasterRead I2C1_MasterRead `(v  1 e 1 0 ]
+"642
+[v _I2C1_MasterTRBInsert I2C1_MasterTRBInsert `(v  1 e 1 0 ]
+"695
+[v _I2C1_MasterReadTRBBuild I2C1_MasterReadTRBBuild `(v  1 e 1 0 ]
+"708
+[v _I2C1_MasterWriteTRBBuild I2C1_MasterWriteTRBBuild `(v  1 e 1 0 ]
+"729
+[v _I2C1_BusCollisionISR I2C1_BusCollisionISR `(v  1 e 1 0 ]
+"51 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"57
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"115 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"126
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"51 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"65 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"94
+[v _TMR0_StartTimer TMR0_StartTimer `(v  1 e 1 0 ]
+"100
+[v _TMR0_StopTimer TMR0_StopTimer `(v  1 e 1 0 ]
+[v i2_TMR0_StopTimer TMR0_StopTimer `(v  1 e 1 0 ]
+"119
+[v _TMR0_Write16bitTimer TMR0_Write16bitTimer `(v  1 e 1 0 ]
+[v i2_TMR0_Write16bitTimer TMR0_Write16bitTimer `(v  1 e 1 0 ]
+"133
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"150
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"154
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"36 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\TEST_ROUTINES.c
+[v _hxSPP_test hxSPP_test `(v  1 e 1 0 ]
+"5 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\Utils.c
+[v _writeI2C writeI2C `(uc  1 e 1 0 ]
+"44
+[v _readI2C readI2C `(uc  1 e 1 0 ]
+"77
+[v _streamBoronComm streamBoronComm `(uc  1 e 1 0 ]
+"89
+[v _streamSW streamSW `(uc  1 e 1 0 ]
+"96
+[v _streamI2C streamI2C `(uc  1 e 1 0 ]
+"180
+[v _calcChecksum calcChecksum `(uc  1 e 1 0 ]
+"2053 C:\Program Files (x86)\Microchip\xc8\v1.44\include\pic18f47k40.h
+[v _PPSLOCK PPSLOCK `VEuc  1 e 1 @3744 ]
+[s S2695 . 1 `uc 1 PPSLOCKED 1 0 :1:0 
+]
+"2063
+[u S2697 . 1 `S2695 1 . 1 0 ]
+[v _PPSLOCKbits PPSLOCKbits `VES2697  1 e 1 @3744 ]
+[s S2705 . 1 `uc 1 RXPPS 1 0 :5:0 
+]
+"3258
+[u S2707 . 1 `S2705 1 . 1 0 ]
+[v _RX1PPSbits RX1PPSbits `VES2707  1 e 1 @3765 ]
+[s S2712 . 1 `uc 1 SSPCLKPPS 1 0 :5:0 
+]
+"3361
+[u S2714 . 1 `S2712 1 . 1 0 ]
+[v _SSP1CLKPPSbits SSP1CLKPPSbits `VES2714  1 e 1 @3767 ]
+[s S2719 . 1 `uc 1 SSPDATPPS 1 0 :5:0 
+]
+"3381
+[u S2721 . 1 `S2719 1 . 1 0 ]
+[v _SSP1DATPPSbits SSP1DATPPSbits `VES2721  1 e 1 @3768 ]
+[s S2375 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 INT1IE 1 0 :1:1 
+`uc 1 INT2IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"3822
+[u S2382 . 1 `S2375 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES2382  1 e 1 @3778 ]
+[s S248 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 SSP2IE 1 0 :1:2 
+`uc 1 BCL2IE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 TX2IE 1 0 :1:6 
+`uc 1 RC2IE 1 0 :1:7 
+]
+"3978
+[s S257 . 1 `uc 1 RXB0IE 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+`uc 1 TXB0IE 1 0 :1:2 
+`uc 1 TXB1IE 1 0 :1:3 
+`uc 1 TXB2IE 1 0 :1:4 
+]
+[s S263 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIE 1 0 :1:4 
+]
+[u S268 . 1 `S248 1 . 1 0 `S257 1 . 1 0 `S263 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES268  1 e 1 @3781 ]
+[s S2392 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 INT1IF 1 0 :1:1 
+`uc 1 INT2IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"4228
+[u S2399 . 1 `S2392 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES2399  1 e 1 @3786 ]
+[s S2051 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 TX2IF 1 0 :1:6 
+`uc 1 RC2IF 1 0 :1:7 
+]
+"4377
+[s S2060 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S2065 . 1 `S2051 1 . 1 0 `S2060 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES2065  1 e 1 @3789 ]
+[s S102 . 1 `uc 1 CWGIF 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 NVMIF 1 0 :1:5 
+`uc 1 CRCIF 1 0 :1:6 
+`uc 1 SCANIF 1 0 :1:7 
+]
+"4557
+[s S108 . 1 `uc 1 CWG1IF 1 0 :1:0 
+]
+[u S110 . 1 `S102 1 . 1 0 `S108 1 . 1 0 ]
+[v _PIR7bits PIR7bits `VES110  1 e 1 @3793 ]
+"5165
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3800 ]
+"5305
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @3802 ]
+"5457
+[v _OSCEN OSCEN `VEuc  1 e 1 @3804 ]
+"5508
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3805 ]
+"5566
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3806 ]
+"6366
+[v _RB1PPS RB1PPS `VEuc  1 e 1 @3824 ]
+"6718
+[v _RC1PPS RC1PPS `VEuc  1 e 1 @3832 ]
+"6762
+[v _RC2PPS RC2PPS `VEuc  1 e 1 @3833 ]
+"7820
+[v _ODCONA ODCONA `VEuc  1 e 1 @3855 ]
+"7882
+[v _WPUA WPUA `VEuc  1 e 1 @3856 ]
+"7944
+[v _ANSELA ANSELA `VEuc  1 e 1 @3857 ]
+"8316
+[v _ODCONB ODCONB `VEuc  1 e 1 @3863 ]
+"8378
+[v _WPUB WPUB `VEuc  1 e 1 @3864 ]
+"8440
+[v _ANSELB ANSELB `VEuc  1 e 1 @3865 ]
+"8812
+[v _ODCONC ODCONC `VEuc  1 e 1 @3871 ]
+"8874
+[v _WPUC WPUC `VEuc  1 e 1 @3872 ]
+"8936
+[v _ANSELC ANSELC `VEuc  1 e 1 @3873 ]
+"9122
+[v _ODCOND ODCOND `VEuc  1 e 1 @3876 ]
+"9184
+[v _WPUD WPUD `VEuc  1 e 1 @3877 ]
+"9246
+[v _ANSELD ANSELD `VEuc  1 e 1 @3878 ]
+"9441
+[v _ODCONE ODCONE `VEuc  1 e 1 @3884 ]
+"9473
+[v _WPUE WPUE `VEuc  1 e 1 @3885 ]
+"9511
+[v _ANSELE ANSELE `VEuc  1 e 1 @3886 ]
+"15506
+[v _NVMADRL NVMADRL `VEuc  1 e 1 @3966 ]
+"15760
+[v _NVMADRH NVMADRH `VEuc  1 e 1 @3967 ]
+"15816
+[v _NVMDAT NVMDAT `VEuc  1 e 1 @3968 ]
+[s S69 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 NVMREG 1 0 :2:6 
+]
+"15907
+[s S77 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NVMREG0 1 0 :1:6 
+`uc 1 NVMREG1 1 0 :1:7 
+]
+[u S81 . 1 `S69 1 . 1 0 `S77 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES81  1 e 1 @3969 ]
+"15952
+[v _NVMCON2 NVMCON2 `VEuc  1 e 1 @3970 ]
+"15972
+[v _LATA LATA `VEuc  1 e 1 @3971 ]
+[s S662 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"15999
+[s S671 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S680 . 1 `S662 1 . 1 0 `S671 1 . 1 0 ]
+[v _LATAbits LATAbits `VES680  1 e 1 @3971 ]
+"16084
+[v _LATB LATB `VEuc  1 e 1 @3972 ]
+[s S203 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"16111
+[s S212 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S221 . 1 `S203 1 . 1 0 `S212 1 . 1 0 ]
+[v _LATBbits LATBbits `VES221  1 e 1 @3972 ]
+"16196
+[v _LATC LATC `VEuc  1 e 1 @3973 ]
+"16308
+[v _LATD LATD `VEuc  1 e 1 @3974 ]
+"16420
+[v _LATE LATE `VEuc  1 e 1 @3975 ]
+"16517
+[v _TRISA TRISA `VEuc  1 e 1 @3976 ]
+"16639
+[v _TRISB TRISB `VEuc  1 e 1 @3977 ]
+"16761
+[v _TRISC TRISC `VEuc  1 e 1 @3978 ]
+"16883
+[v _TRISD TRISD `VEuc  1 e 1 @3979 ]
+"17005
+[v _TRISE TRISE `VEuc  1 e 1 @3980 ]
+"17067
+[v _PORTA PORTA `VEuc  1 e 1 @3981 ]
+[s S530 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"17091
+[s S539 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 LVDIN 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 RJPU 1 0 :1:7 
+]
+[u S545 . 1 `S530 1 . 1 0 `S539 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES545  1 e 1 @3981 ]
+[s S1239 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"17172
+[s S1248 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S1251 . 1 `S1239 1 . 1 0 `S1248 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES1251  1 e 1 @3982 ]
+"17586
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @3986 ]
+"17606
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @3987 ]
+"17796
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @3989 ]
+"18250
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @3990 ]
+[s S2108 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"18280
+[s S2114 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S2119 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S2128 . 1 `S2108 1 . 1 0 `S2114 1 . 1 0 `S2119 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES2128  1 e 1 @3990 ]
+[s S2153 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"18417
+[s S2162 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK 1 0 :5:1 
+]
+[s S2165 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S2172 . 1 `uc 1 SEN1 1 0 :1:0 
+`uc 1 ADMSK11 1 0 :1:1 
+`uc 1 ADMSK21 1 0 :1:2 
+`uc 1 ADMSK31 1 0 :1:3 
+`uc 1 ACKEN1 1 0 :1:4 
+`uc 1 ACKDT1 1 0 :1:5 
+`uc 1 ACKSTAT1 1 0 :1:6 
+`uc 1 GCEN1 1 0 :1:7 
+]
+[s S2181 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN1 1 0 :1:1 
+`uc 1 PEN1 1 0 :1:2 
+`uc 1 RCEN1 1 0 :1:3 
+`uc 1 ADMSK41 1 0 :1:4 
+`uc 1 ADMSK51 1 0 :1:5 
+]
+[u S2188 . 1 `S2153 1 . 1 0 `S2162 1 . 1 0 `S2165 1 . 1 0 `S2172 1 . 1 0 `S2181 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES2188  1 e 1 @3991 ]
+"18557
+[v _SSP1CON3 SSP1CON3 `VEuc  1 e 1 @3992 ]
+"18619
+[v _RC1REG RC1REG `VEuc  1 e 1 @3993 ]
+"18657
+[v _TX1REG TX1REG `VEuc  1 e 1 @3994 ]
+"18702
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @3995 ]
+"18740
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @3996 ]
+"18778
+[v _RC1STA RC1STA `VEuc  1 e 1 @3997 ]
+[s S2586 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"18811
+[s S2595 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S2598 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S2601 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S2603 . 1 `S2586 1 . 1 0 `S2595 1 . 1 0 `S2598 1 . 1 0 `S2601 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES2603  1 e 1 @3997 ]
+"18952
+[v _TX1STA TX1STA `VEuc  1 e 1 @3998 ]
+"19108
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @3999 ]
+"25229
+[v _TMR0L TMR0L `VEuc  1 e 1 @4051 ]
+"25367
+[v _TMR0H TMR0H `VEuc  1 e 1 @4052 ]
+"25621
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @4053 ]
+[s S2767 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T016BIT 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"25641
+[s S2773 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+[u S2778 . 1 `S2767 1 . 1 0 `S2773 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES2778  1 e 1 @4053 ]
+"25686
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @4054 ]
+[s S29 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"26539
+[s S37 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S41 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S45 . 1 `S29 1 . 1 0 `S37 1 . 1 0 `S41 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES45  1 e 1 @4082 ]
+"28246
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"77 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\EEPROM.h
+[v _eeprom_currAddr eeprom_currAddr `ui  1 e 2 0 ]
+[s S949 . 26 `ui 1 LATCH_OSC0_DATA 2 0 `ui 1 LATCH_OSC1_DATA 2 2 `ui 1 LATCH_OSC2_DATA 2 4 `ui 1 LATCH_ANALOG_DATA 2 6 `ui 1 LATCH_OVEN_DATA 2 8 `ui 1 LATCH_HEAT_DAC_DATA 2 10 `ui 1 LATCH_VARACTOR_DAC_DATA 2 12 `ui 1 LATCH_BIAS_DATA 2 14 `ui 1 LATCH_CMOS_DATA 2 16 `ui 1 LATCH_ADC_DATA 2 18 `ui 1 LATCH_ADC_MUX_DATA 2 20 `ui 1 LATCH_OCXO_DIVISOR_DATA 2 22 `ui 1 LATCH_CLOCK_SELECT_DATA 2 24 ]
+"14 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_ASL_BORON.c
+[v _tsld tsld `S949  1 e 26 0 ]
+"15
+[v _BORON_COMM_TYPE BORON_COMM_TYPE `uc  1 e 1 0 ]
+"223 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_ASL_BORON.h
+[v _SFR_P0_DATA SFR_P0_DATA `uc  1 e 1 0 ]
+"224
+[v _SFR_P1_DATA SFR_P1_DATA `uc  1 e 1 0 ]
+"225
+[v _SFR_OSC0_DATA SFR_OSC0_DATA `uc  1 e 1 0 ]
+"226
+[v _SFR_OSC1_DATA SFR_OSC1_DATA `uc  1 e 1 0 ]
+"227
+[v _SFR_OSC2_DATA SFR_OSC2_DATA `uc  1 e 1 0 ]
+"228
+[v _SFR_ANALOG_DATA SFR_ANALOG_DATA `uc  1 e 1 0 ]
+"229
+[v _SFR_OVEN_DATA SFR_OVEN_DATA `uc  1 e 1 0 ]
+"230
+[v _SFR_HEAT_DATA SFR_HEAT_DATA `uc  1 e 1 0 ]
+"231
+[v _SFR_VAR_DATA SFR_VAR_DATA `uc  1 e 1 0 ]
+"232
+[v _SFR_BIAS_DATA SFR_BIAS_DATA `uc  1 e 1 0 ]
+"233
+[v _SFR_EXT_DATA SFR_EXT_DATA `uc  1 e 1 0 ]
+"234
+[v _SFR_CMOS_OUT_DATA SFR_CMOS_OUT_DATA `uc  1 e 1 0 ]
+"235
+[v _SFR_OCXO_DIV_DATA SFR_OCXO_DIV_DATA `uc  1 e 1 0 ]
+"236
+[v _SFR_CLK_SEL_DATA SFR_CLK_SEL_DATA `uc  1 e 1 0 ]
+"237
+[v _SFR_ADC_DIV_DATA SFR_ADC_DIV_DATA `uc  1 e 1 0 ]
+"238
+[v _SFR_ADC_MUX_DATA SFR_ADC_MUX_DATA `uc  1 e 1 0 ]
+"239
+[v _SFR_ASIC_REV_DATA SFR_ASIC_REV_DATA `uc  1 e 1 0 ]
+"240
+[v _SFR_OTP_MR_DATA SFR_OTP_MR_DATA `uc  1 e 1 0 ]
+"241
+[v _SFR_OTP_MPP_DATA SFR_OTP_MPP_DATA `uc  1 e 1 0 ]
+"242
+[v _SFR_OTP_MRR_LO_DATA SFR_OTP_MRR_LO_DATA `uc  1 e 1 0 ]
+"243
+[v _SFR_OTP_MRR_HI_DATA SFR_OTP_MRR_HI_DATA `uc  1 e 1 0 ]
+"244
+[v _SFR_OTP_WR_ADDR_HIGH_DATA SFR_OTP_WR_ADDR_HIGH_DATA `uc  1 e 1 0 ]
+"245
+[v _SFR_OTP_WR_ADDR_LOW_DATA SFR_OTP_WR_ADDR_LOW_DATA `uc  1 e 1 0 ]
+"246
+[v _SFR_OTP_WR_DATA_DATA SFR_OTP_WR_DATA_DATA `uc  1 e 1 0 ]
+"247
+[v _SFR_OTP_DIV_100US_HIGH_DATA SFR_OTP_DIV_100US_HIGH_DATA `uc  1 e 1 0 ]
+"248
+[v _SFR_OTP_DIV_100US_LOW_DATA SFR_OTP_DIV_100US_LOW_DATA `uc  1 e 1 0 ]
+"249
+[v _SFR_OTP_DIV_400US_HIGH_DATA SFR_OTP_DIV_400US_HIGH_DATA `uc  1 e 1 0 ]
+"250
+[v _SFR_OTP_DIV_400US_LOW_DATA SFR_OTP_DIV_400US_LOW_DATA `uc  1 e 1 0 ]
+"251
+[v _SFR_OTP_ST_TIMING_DATA SFR_OTP_ST_TIMING_DATA `uc  1 e 1 0 ]
+"252
+[v _SFR_SW_100US_LOW_DATA SFR_SW_100US_LOW_DATA `uc  1 e 1 0 ]
+"253
+[v _SFR_SW_100US_HIGH_DATA SFR_SW_100US_HIGH_DATA `uc  1 e 1 0 ]
+"254
+[v _SFR_SW_ST_DET_DATA SFR_SW_ST_DET_DATA `uc  1 e 1 0 ]
+"255
+[v _SFR_SW_WR_BIT_DATA SFR_SW_WR_BIT_DATA `uc  1 e 1 0 ]
+"256
+[v _SFR_SW_BIT_INT_DATA SFR_SW_BIT_INT_DATA `uc  1 e 1 0 ]
+"257
+[v _SFR_SW_WR_BYT_DATA SFR_SW_WR_BYT_DATA `uc  1 e 1 0 ]
+"258
+[v _SFR_SW_BYT_INT_DATA SFR_SW_BYT_INT_DATA `uc  1 e 1 0 ]
+"259
+[v _SFR_SW_DET_BIT_DATA SFR_SW_DET_BIT_DATA `uc  1 e 1 0 ]
+"260
+[v _SFR_SW_BIT_DATA_DATA SFR_SW_BIT_DATA_DATA `uc  1 e 1 0 ]
+"261
+[v _SFR_SW_BIT_DATA_ST_DATA SFR_SW_BIT_DATA_ST_DATA `uc  1 e 1 0 ]
+"262
+[v _SFR_SW_STOP_DET_DATA SFR_SW_STOP_DET_DATA `uc  1 e 1 0 ]
+"263
+[v _SFR_SW_STOP_DET_ST_DATA SFR_SW_STOP_DET_ST_DATA `uc  1 e 1 0 ]
+"289
+[v _LATCH_OSC0_DATA LATCH_OSC0_DATA `ul  1 e 4 0 ]
+"290
+[v _LATCH_OSC1_DATA LATCH_OSC1_DATA `ul  1 e 4 0 ]
+"291
+[v _LATCH_OSC2_DATA LATCH_OSC2_DATA `ul  1 e 4 0 ]
+"292
+[v _LATCH_ANALOG_DATA LATCH_ANALOG_DATA `ul  1 e 4 0 ]
+"293
+[v _LATCH_OVEN_DATA LATCH_OVEN_DATA `ul  1 e 4 0 ]
+"294
+[v _LATCH_HEAT_DAC_DATA LATCH_HEAT_DAC_DATA `ul  1 e 4 0 ]
+"295
+[v _LATCH_VARACTOR_DAC_DATA LATCH_VARACTOR_DAC_DATA `ul  1 e 4 0 ]
+"296
+[v _LATCH_BIAS_DATA LATCH_BIAS_DATA `ul  1 e 4 0 ]
+"297
+[v _LATCH_CMOS_DATA LATCH_CMOS_DATA `ul  1 e 4 0 ]
+"299
+[v _LATCH_ADC_DATA LATCH_ADC_DATA `ul  1 e 4 0 ]
+"300
+[v _LATCH_ADC_MUX_DATA LATCH_ADC_MUX_DATA `ul  1 e 4 0 ]
+"301
+[v _LATCH_OCXO_DIVISOR_DATA LATCH_OCXO_DIVISOR_DATA `ul  1 e 4 0 ]
+"302
+[v _LATCH_CLOCK_SELECT_DATA LATCH_CLOCK_SELECT_DATA `ul  1 e 4 0 ]
+"22 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X/HX_DeviceProperties.h
+[v _hx_outDataIndex hx_outDataIndex `uc  1 e 1 0 ]
+"23
+[v _hx_outData hx_outData `[64]uc  1 e 64 0 ]
+"24
+[v _hx_mainDataIndex hx_mainDataIndex `uc  1 e 1 0 ]
+"25
+[v _hx_mainData hx_mainData `[61]uc  1 e 61 0 ]
+"31
+[v _hx_inDataIndex hx_inDataIndex `uc  1 e 1 0 ]
+"32
+[v _hx_inData hx_inData `[64]uc  1 e 64 0 ]
+"36
+[v _hx_checksum hx_checksum `uc  1 e 1 0 ]
+"37
+[v _hx_pcCmd hx_pcCmd `uc  1 e 1 0 ]
+"38
+[v _hx_pktCmd hx_pktCmd `uc  1 e 1 0 ]
+"39
+[v _hx_state hx_state `uc  1 e 1 0 ]
+"40
+[v _hx_pktState hx_pktState `uc  1 e 1 0 ]
+"43
+[v _hx_rxFullPktFlag hx_rxFullPktFlag `uc  1 e 1 0 ]
+"44
+[v _hx_startMain hx_startMain `uc  1 e 1 0 ]
+"46
+[v _hx_txPacketFlag hx_txPacketFlag `uc  1 e 1 0 ]
+"49
+[v _hx_debugVar hx_debugVar `uc  1 e 1 0 ]
+"50
+[v _hx_abort hx_abort `uc  1 e 1 0 ]
+"62 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/eusart1.c
+[v _eusart1TxHead eusart1TxHead `uc  1 s 1 eusart1TxHead ]
+"63
+[v _eusart1TxTail eusart1TxTail `uc  1 s 1 eusart1TxTail ]
+"64
+[v _eusart1TxBuffer eusart1TxBuffer `[64]uc  1 s 64 eusart1TxBuffer ]
+"65
+[v _eusart1TxBufferRemaining eusart1TxBufferRemaining `VEuc  1 e 1 0 ]
+"67
+[v _eusart1RxHead eusart1RxHead `uc  1 s 1 eusart1RxHead ]
+"68
+[v _eusart1RxTail eusart1RxTail `uc  1 s 1 eusart1RxTail ]
+"70
+[v _eusart1RxCount eusart1RxCount `VEuc  1 e 1 0 ]
+[s S423 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"184 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/i2c1.c
+[s S2017 . 5 `uc 1 count 1 0 `*.39S423 1 ptrb_list 2 1 `*.39E11632 1 pTrFlag 2 3 ]
+[v _i2c1_tr_queue i2c1_tr_queue `[1]S2017  1 s 5 i2c1_tr_queue ]
+"185
+[s S2021 . 1 `uc 1 full 1 0 :1:0 
+`uc 1 empty 1 0 :1:1 
+`uc 1 reserved 1 0 :6:2 
+]
+[u S2025 . 1 `S2021 1 s 1 0 `uc 1 status 1 0 ]
+[s S2028 . 7 `*.39S2017 1 pTrTail 2 0 `*.39S2017 1 pTrHead 2 2 `S2025 1 trStatus 1 4 `uc 1 i2cDoneFlag 1 5 `uc 1 i2cErrors 1 6 ]
+[v _i2c1_object i2c1_object `S2028  1 s 7 i2c1_object ]
+"186
+[v _i2c1_state i2c1_state `E11701  1 s 1 i2c1_state ]
+"187
+[v _i2c1_trb_count i2c1_trb_count `uc  1 s 1 i2c1_trb_count ]
+"189
+[v _p_i2c1_trb_current p_i2c1_trb_current `*.39S423  1 s 2 p_i2c1_trb_current ]
+"190
+[v _p_i2c1_current p_i2c1_current `*.39S2017  1 s 2 p_i2c1_current ]
+"57 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/tmr0.c
+[v _timer0ReloadVal16bit timer0ReloadVal16bit `VEui  1 e 2 0 ]
+"63
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.38(v  1 e 3 0 ]
+"57 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"144
+} 0
+"3 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_SPP_CARBON.c
+[v _run_SPPCarbon_test run_SPPCarbon_test `(v  1 e 1 0 ]
+{
+"5
+[v run_SPPCarbon_test@numTxBytes numTxBytes `uc  1 a 1 42 ]
+"6
+[v run_SPPCarbon_test@numRxBytes numRxBytes `uc  1 a 1 41 ]
+"7
+[v run_SPPCarbon_test@returnValue returnValue `uc  1 a 1 40 ]
+"4
+[v run_SPPCarbon_test@hx_inData hx_inData `*.39uc  1 p 2 36 ]
+"3
+[v run_SPPCarbon_test@size size `uc  1 p 1 38 ]
+"109
+} 0
+"146
+[v _hxSPPCarbonWrite_test hxSPPCarbonWrite_test `(v  1 e 1 0 ]
+{
+[v hxSPPCarbonWrite_test@numTX numTX `uc  1 a 1 wreg ]
+"148
+[v hxSPPCarbonWrite_test@returnValue returnValue `uc  1 a 1 21 ]
+"146
+[v hxSPPCarbonWrite_test@numTX numTX `uc  1 a 1 wreg ]
+[v hxSPPCarbonWrite_test@txBuffer txBuffer `*.39uc  1 p 2 16 ]
+[v hxSPPCarbonWrite_test@rxBuffer rxBuffer `*.39uc  1 p 2 18 ]
+"149
+[v hxSPPCarbonWrite_test@numTX numTX `uc  1 a 1 20 ]
+"158
+} 0
+"112
+[v _hxSPPCarbonWriteAndVerity_test hxSPPCarbonWriteAndVerity_test `(v  1 e 1 0 ]
+{
+[v hxSPPCarbonWriteAndVerity_test@numTX numTX `uc  1 a 1 wreg ]
+"133
+[v hxSPPCarbonWriteAndVerity_test@i i `uc  1 a 1 34 ]
+"115
+[v hxSPPCarbonWriteAndVerity_test@tempValue tempValue `uc  1 a 1 35 ]
+"114
+[v hxSPPCarbonWriteAndVerity_test@returnValue returnValue `uc  1 a 1 32 ]
+"112
+[v hxSPPCarbonWriteAndVerity_test@numTX numTX `uc  1 a 1 wreg ]
+[v hxSPPCarbonWriteAndVerity_test@txBuffer txBuffer `*.39uc  1 p 2 26 ]
+[v hxSPPCarbonWriteAndVerity_test@rxBuffer rxBuffer `*.39uc  1 p 2 28 ]
+"116
+[v hxSPPCarbonWriteAndVerity_test@numTX numTX `uc  1 a 1 33 ]
+"143
+} 0
+"377
+[v _hxSPPCarbonWriteReg_test hxSPPCarbonWriteReg_test `(uc  1 e 1 0 ]
+{
+[v hxSPPCarbonWriteReg_test@numTX numTX `uc  1 a 1 wreg ]
+"440
+[v hxSPPCarbonWriteReg_test@j_916 j `uc  1 a 1 14 ]
+"422
+[v hxSPPCarbonWriteReg_test@i i `uc  1 a 1 13 ]
+"407
+[v hxSPPCarbonWriteReg_test@j j `uc  1 a 1 12 ]
+"379
+[v hxSPPCarbonWriteReg_test@tempByte tempByte `uc  1 a 1 15 ]
+"380
+[v hxSPPCarbonWriteReg_test@oddParityCalc oddParityCalc `uc  1 a 1 11 ]
+"381
+[v hxSPPCarbonWriteReg_test@tempHxState tempHxState `uc  1 a 1 10 ]
+"377
+[v hxSPPCarbonWriteReg_test@numTX numTX `uc  1 a 1 wreg ]
+[v hxSPPCarbonWriteReg_test@txBuffer txBuffer `*.39uc  1 p 2 7 ]
+"380
+[v hxSPPCarbonWriteReg_test@numTX numTX `uc  1 a 1 9 ]
+"479
+} 0
+"161
+[v _hxSPPCarbonRead_test hxSPPCarbonRead_test `(v  1 e 1 0 ]
+{
+[v hxSPPCarbonRead_test@numTX numTX `uc  1 a 1 wreg ]
+"163
+[v hxSPPCarbonRead_test@returnValue returnValue `uc  1 a 1 32 ]
+"161
+[v hxSPPCarbonRead_test@numTX numTX `uc  1 a 1 wreg ]
+[v hxSPPCarbonRead_test@numRX numRX `uc  1 p 1 26 ]
+[v hxSPPCarbonRead_test@txBuffer txBuffer `*.39uc  1 p 2 27 ]
+[v hxSPPCarbonRead_test@rxBuffer rxBuffer `*.39uc  1 p 2 29 ]
+"164
+[v hxSPPCarbonRead_test@numTX numTX `uc  1 a 1 31 ]
+"172
+} 0
+"175
+[v _hxSPPCarbonReadReg_test hxSPPCarbonReadReg_test `(uc  1 e 1 0 ]
+{
+[v hxSPPCarbonReadReg_test@numTX numTX `uc  1 a 1 wreg ]
+"288
+[v hxSPPCarbonReadReg_test@j_907 j `uc  1 a 1 21 ]
+"244
+[v hxSPPCarbonReadReg_test@j_905 j `uc  1 a 1 19 ]
+"284
+[v hxSPPCarbonReadReg_test@i_906 i `uc  1 a 1 20 ]
+"226
+[v hxSPPCarbonReadReg_test@i i `uc  1 a 1 18 ]
+"211
+[v hxSPPCarbonReadReg_test@j j `uc  1 a 1 17 ]
+"180
+[v hxSPPCarbonReadReg_test@readbackTimer readbackTimer `ui  1 a 2 14 ]
+"177
+[v hxSPPCarbonReadReg_test@tempByte tempByte `uc  1 a 1 25 ]
+"178
+[v hxSPPCarbonReadReg_test@readbackCommState readbackCommState `uc  1 a 1 24 ]
+"183
+[v hxSPPCarbonReadReg_test@tempHxState tempHxState `uc  1 a 1 23 ]
+"179
+[v hxSPPCarbonReadReg_test@bitVal bitVal `uc  1 a 1 22 ]
+"181
+[v hxSPPCarbonReadReg_test@oddParityCalc oddParityCalc `uc  1 a 1 16 ]
+"182
+[v hxSPPCarbonReadReg_test@portAVal portAVal `uc  1 a 1 12 ]
+"175
+[v hxSPPCarbonReadReg_test@numTX numTX `uc  1 a 1 wreg ]
+[v hxSPPCarbonReadReg_test@numRX numRX `uc  1 p 1 7 ]
+[v hxSPPCarbonReadReg_test@txBuffer txBuffer `*.39uc  1 p 2 8 ]
+[v hxSPPCarbonReadReg_test@rxBuffer rxBuffer `*.39uc  1 p 2 10 ]
+"181
+[v hxSPPCarbonReadReg_test@numTX numTX `uc  1 a 1 13 ]
+"374
+} 0
+"483
+[v _hxSPPCarbonProgram_test hxSPPCarbonProgram_test `(v  1 e 1 0 ]
+{
+[v hxSPPCarbonProgram_test@numTX numTX `uc  1 a 1 wreg ]
+"544
+[v hxSPPCarbonProgram_test@j_925 j `uc  1 a 1 15 ]
+"526
+[v hxSPPCarbonProgram_test@i i `uc  1 a 1 14 ]
+"511
+[v hxSPPCarbonProgram_test@j j `uc  1 a 1 13 ]
+"485
+[v hxSPPCarbonProgram_test@tempByte tempByte `uc  1 a 1 16 ]
+"486
+[v hxSPPCarbonProgram_test@oddParityCalc oddParityCalc `uc  1 a 1 12 ]
+"483
+[v hxSPPCarbonProgram_test@numTX numTX `uc  1 a 1 wreg ]
+[v hxSPPCarbonProgram_test@txBuffer txBuffer `*.39uc  1 p 2 7 ]
+[v hxSPPCarbonProgram_test@rxBuffer rxBuffer `*.39uc  1 p 2 9 ]
+"486
+[v hxSPPCarbonProgram_test@numTX numTX `uc  1 a 1 11 ]
+"590
+} 0
+"593
+[v _hxSPPCarbonCheckBusy_test hxSPPCarbonCheckBusy_test `(v  1 e 1 0 ]
+{
+[v hxSPPCarbonCheckBusy_test@numTX numTX `uc  1 a 1 wreg ]
+"710
+[v hxSPPCarbonCheckBusy_test@j_941 j `uc  1 a 1 22 ]
+"663
+[v hxSPPCarbonCheckBusy_test@j_939 j `uc  1 a 1 20 ]
+"706
+[v hxSPPCarbonCheckBusy_test@i_940 i `uc  1 a 1 21 ]
+"645
+[v hxSPPCarbonCheckBusy_test@i i `uc  1 a 1 19 ]
+"630
+[v hxSPPCarbonCheckBusy_test@j j `uc  1 a 1 18 ]
+"598
+[v hxSPPCarbonCheckBusy_test@readbackTimer readbackTimer `ui  1 a 2 15 ]
+"595
+[v hxSPPCarbonCheckBusy_test@tempByte tempByte `uc  1 a 1 26 ]
+"596
+[v hxSPPCarbonCheckBusy_test@readbackCommState readbackCommState `uc  1 a 1 25 ]
+"600
+[v hxSPPCarbonCheckBusy_test@portAVal portAVal `uc  1 a 1 24 ]
+"597
+[v hxSPPCarbonCheckBusy_test@bitVal bitVal `uc  1 a 1 23 ]
+"599
+[v hxSPPCarbonCheckBusy_test@oddParityCalc oddParityCalc `uc  1 a 1 17 ]
+"593
+[v hxSPPCarbonCheckBusy_test@numTX numTX `uc  1 a 1 wreg ]
+[v hxSPPCarbonCheckBusy_test@numRX numRX `uc  1 p 1 7 ]
+[v hxSPPCarbonCheckBusy_test@txBuffer txBuffer `*.39uc  1 p 2 8 ]
+[v hxSPPCarbonCheckBusy_test@rxBuffer rxBuffer `*.39uc  1 p 2 10 ]
+"599
+[v hxSPPCarbonCheckBusy_test@numTX numTX `uc  1 a 1 14 ]
+"792
+} 0
+"795
+[v _hxOddParityCalc hxOddParityCalc `(uc  1 e 1 0 ]
+{
+"802
+[v hxOddParityCalc@j j `uc  1 a 1 4 ]
+"799
+[v hxOddParityCalc@i i `uc  1 a 1 3 ]
+"798
+[v hxOddParityCalc@temp temp `uc  1 a 1 6 ]
+"797
+[v hxOddParityCalc@parity parity `uc  1 a 1 5 ]
+"795
+[v hxOddParityCalc@buff buff `*.39uc  1 p 2 0 ]
+[v hxOddParityCalc@size size `uc  1 p 1 2 ]
+"815
+} 0
+"14 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_I2C.c
+[v _run_I2C run_I2C `(v  1 e 1 0 ]
+{
+"146
+[v run_I2C@i_2002 i `uc  1 a 1 5 ]
+"125
+[v run_I2C@i_2001 i `uc  1 a 1 4 ]
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"30
+[v run_I2C@txPkt txPkt `S405  1 a 71 90 ]
+"31
+[v run_I2C@rxPkt rxPkt `S405  1 a 71 19 ]
+"32
+[v run_I2C@stream stream `[2]*.39S405  1 a 4 8 ]
+"21
+[v run_I2C@data_index data_index `ui  1 a 2 17 ]
+"19
+[v run_I2C@slaveAddr slaveAddr `ui  1 a 2 2 ]
+"26
+[v run_I2C@debugArr debugArr `*.2uc  1 a 2 0 ]
+"23
+[v run_I2C@rx_index rx_index `uc  1 a 1 16 ]
+"16
+[v run_I2C@mode mode `uc  1 a 1 15 ]
+"17
+[v run_I2C@numTx numTx `uc  1 a 1 14 ]
+"28
+[v run_I2C@i i `uc  1 a 1 13 ]
+"18
+[v run_I2C@numRx numRx `uc  1 a 1 12 ]
+"22
+[v run_I2C@calc_checksum calc_checksum `uc  1 a 1 7 ]
+"20
+[v run_I2C@checksum checksum `uc  1 a 1 6 ]
+"15
+[v run_I2C@hx_inData hx_inData `*.39uc  1 p 2 24 ]
+"14
+[v run_I2C@size size `uc  1 p 1 26 ]
+"182
+} 0
+"44 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\Utils.c
+[v _readI2C readI2C `(uc  1 e 1 0 ]
+{
+"47
+[v readI2C@timeOut timeOut `ui  1 a 2 21 ]
+"46
+[v readI2C@status status `E11632  1 a 1 23 ]
+"44
+[v readI2C@rxData rxData `*.39uc  1 p 2 16 ]
+[v readI2C@numOfRx numOfRx `uc  1 p 1 18 ]
+[v readI2C@slaveAddr slaveAddr `ui  1 p 2 19 ]
+"75
+} 0
+"621 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/i2c1.c
+[v _I2C1_MasterRead I2C1_MasterRead `(v  1 e 1 0 ]
+{
+"622
+[v I2C1_MasterRead@pdata pdata `*.39uc  1 p 2 9 ]
+"623
+[v I2C1_MasterRead@length length `uc  1 p 1 11 ]
+"624
+[v I2C1_MasterRead@address address `ui  1 p 2 12 ]
+"625
+[v I2C1_MasterRead@pflag pflag `*.39E11632  1 p 2 14 ]
+[s S423 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"627
+[v I2C1_MasterRead@trBlock trBlock `S423  1 s 5 trBlock ]
+"640
+} 0
+"17 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_ASL_BORON.c
+[v _run_ASLBoron run_ASLBoron `(v  1 e 1 0 ]
+{
+"49
+[v run_ASLBoron@i i `uc  1 a 1 243 ]
+"23
+[v run_ASLBoron@cnfg_arr cnfg_arr `[256]uc  1 a 256 0 ]
+"24
+[v run_ASLBoron@data_index data_index `ui  1 a 2 246 ]
+"25
+[v run_ASLBoron@rpt_run rpt_run `[2]uc  1 a 2 237 ]
+"19
+[v run_ASLBoron@mode_run mode_run `uc  1 a 1 245 ]
+"22
+[v run_ASLBoron@cnfg_cnt cnfg_cnt `uc  1 a 1 244 ]
+"21
+[v run_ASLBoron@cnfg_run cnfg_run `uc  1 a 1 242 ]
+"20
+[v run_ASLBoron@test_run test_run `uc  1 a 1 241 ]
+"27
+[v run_ASLBoron@calc_checksum calc_checksum `uc  1 a 1 240 ]
+"26
+[v run_ASLBoron@checksum checksum `uc  1 a 1 239 ]
+"18
+[v run_ASLBoron@hx_inData hx_inData `*.39uc  1 p 2 115 ]
+"17
+[v run_ASLBoron@size size `uc  1 p 1 117 ]
+"103
+} 0
+"105
+[v _write_ASLBoron_test write_ASLBoron_test `(v  1 e 1 0 ]
+{
+[v write_ASLBoron_test@run_test run_test `uc  1 a 1 wreg ]
+"107
+[v write_ASLBoron_test@j j `i  1 a 2 113 ]
+[v write_ASLBoron_test@i i `i  1 a 2 111 ]
+"105
+[v write_ASLBoron_test@run_test run_test `uc  1 a 1 wreg ]
+[v write_ASLBoron_test@run_rpt run_rpt `*.39uc  1 p 2 103 ]
+[v write_ASLBoron_test@rxBuffer rxBuffer `*.39uc  1 p 2 105 ]
+"109
+[v write_ASLBoron_test@run_test run_test `uc  1 a 1 110 ]
+"248
+} 0
+"719
+[v _ASLB_ZTCReferenceCurrent ASLB_ZTCReferenceCurrent `(v  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"733
+[v ASLB_ZTCReferenceCurrent@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 5 ]
+"727
+[v ASLB_ZTCReferenceCurrent@rx_index rx_index `uc  1 a 1 4 ]
+"719
+[v ASLB_ZTCReferenceCurrent@rxBuffer rxBuffer `*.39uc  1 p 2 2 ]
+"736
+} 0
+"611
+[v _ASLB_VaricapDACVoltage ASLB_VaricapDACVoltage `(v  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"627
+[v ASLB_VaricapDACVoltage@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 5 ]
+"621
+[v ASLB_VaricapDACVoltage@rx_index rx_index `uc  1 a 1 4 ]
+"611
+[v ASLB_VaricapDACVoltage@rxBuffer rxBuffer `*.39uc  1 p 2 2 ]
+"629
+} 0
+"788
+[v _ASLB_VaricapBiasSteering ASLB_VaricapBiasSteering `(v  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"797
+[v ASLB_VaricapBiasSteering@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 5 ]
+"794
+[v ASLB_VaricapBiasSteering@rx_index rx_index `uc  1 a 1 4 ]
+"788
+[v ASLB_VaricapBiasSteering@rxBuffer rxBuffer `*.39uc  1 p 2 2 ]
+"799
+} 0
+"631
+[v _ASLB_TempSetDACVoltage ASLB_TempSetDACVoltage `(v  1 e 1 0 ]
+{
+"648
+[v ASLB_TempSetDACVoltage@i i `i  1 a 2 76 ]
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"644
+[v ASLB_TempSetDACVoltage@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 5 ]
+"641
+[v ASLB_TempSetDACVoltage@rx_index rx_index `uc  1 a 1 4 ]
+"631
+[v ASLB_TempSetDACVoltage@rxBuffer rxBuffer `*.39uc  1 p 2 2 ]
+"666
+} 0
+"1145
+[v _setTempCtrlDAC setTempCtrlDAC `(uc  1 e 1 0 ]
+{
+[v setTempCtrlDAC@value12bit value12bit `ui  1 p 2 0 ]
+"1166
+} 0
+"347
+[v _ASLB_SheetResistance ASLB_SheetResistance `(v  1 e 1 0 ]
+{
+"366
+[v ASLB_SheetResistance@rx_index rx_index `uc  1 a 1 102 ]
+"347
+[v ASLB_SheetResistance@rxBuffer rxBuffer `*.39uc  1 p 2 100 ]
+"394
+} 0
+"1243
+[v _checkAndSendLatchData checkAndSendLatchData `(uc  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"1420
+[v checkAndSendLatchData@clock_select_pkt clock_select_pkt `S405  1 a 71 0 ]
+"1423
+[v checkAndSendLatchData@readback_clock_select_pkt readback_clock_select_pkt `S405  1 a 71 142 ]
+"1408
+[v checkAndSendLatchData@ocxo_divisor_pkt ocxo_divisor_pkt `S405  1 a 71 142 ]
+"1411
+[v checkAndSendLatchData@readback_ocxo_divisor_pkt readback_ocxo_divisor_pkt `S405  1 a 71 71 ]
+"1396
+[v checkAndSendLatchData@adc_mux_pkt adc_mux_pkt `S405  1 a 71 71 ]
+"1399
+[v checkAndSendLatchData@readback_adc_mux_pkt readback_adc_mux_pkt `S405  1 a 71 0 ]
+"1384
+[v checkAndSendLatchData@adc_pkt adc_pkt `S405  1 a 71 142 ]
+"1387
+[v checkAndSendLatchData@readback_adc_pkt readback_adc_pkt `S405  1 a 71 142 ]
+"1372
+[v checkAndSendLatchData@cmos_pkt cmos_pkt `S405  1 a 71 71 ]
+"1375
+[v checkAndSendLatchData@readback_cmos_pkt readback_cmos_pkt `S405  1 a 71 71 ]
+"1360
+[v checkAndSendLatchData@bias_pkt bias_pkt `S405  1 a 71 0 ]
+"1363
+[v checkAndSendLatchData@readback_bias_pkt readback_bias_pkt `S405  1 a 71 0 ]
+"1348
+[v checkAndSendLatchData@varactor_dac_pkt varactor_dac_pkt `S405  1 a 71 142 ]
+"1351
+[v checkAndSendLatchData@readback_varactor_dac_pkt readback_varactor_dac_pkt `S405  1 a 71 142 ]
+"1336
+[v checkAndSendLatchData@heat_dac_pkt heat_dac_pkt `S405  1 a 71 71 ]
+"1339
+[v checkAndSendLatchData@readback_heat_dac_pkt readback_heat_dac_pkt `S405  1 a 71 71 ]
+"1324
+[v checkAndSendLatchData@oven_pkt oven_pkt `S405  1 a 71 0 ]
+"1327
+[v checkAndSendLatchData@readback_oven_pkt readback_oven_pkt `S405  1 a 71 0 ]
+"1312
+[v checkAndSendLatchData@analog_pkt analog_pkt `S405  1 a 71 142 ]
+"1315
+[v checkAndSendLatchData@readback_analog_pkt readback_analog_pkt `S405  1 a 71 142 ]
+"1300
+[v checkAndSendLatchData@osc2_pkt osc2_pkt `S405  1 a 71 71 ]
+"1303
+[v checkAndSendLatchData@readback_osc2_pkt readback_osc2_pkt `S405  1 a 71 71 ]
+"1288
+[v checkAndSendLatchData@osc1_pkt osc1_pkt `S405  1 a 71 0 ]
+"1291
+[v checkAndSendLatchData@readback_osc1_pkt readback_osc1_pkt `S405  1 a 71 0 ]
+"1268
+[v checkAndSendLatchData@osc0_pkt osc0_pkt `S405  1 a 71 162 ]
+"1277
+[v checkAndSendLatchData@readback_osc0_pkt readback_osc0_pkt `S405  1 a 71 0 ]
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"1255
+[v checkAndSendLatchData@stream stream `[24]*.39S405  1 a 48 25 ]
+"1256
+[v checkAndSendLatchData@readbackPkts readbackPkts `[12]*.39S405  1 a 24 73 ]
+"1252
+[v checkAndSendLatchData@latchSendCount latchSendCount `uc  1 a 1 99 ]
+"1253
+[v checkAndSendLatchData@readbackSendCount readbackSendCount `uc  1 a 1 98 ]
+"1251
+[v checkAndSendLatchData@noError noError `uc  1 a 1 97 ]
+"1257
+[v checkAndSendLatchData@stream_status stream_status `uc  1 a 1 24 ]
+"1243
+[v checkAndSendLatchData@rxBuffer rxBuffer `*.39uc  1 p 2 18 ]
+[v checkAndSendLatchData@rx_index rx_index `*.39uc  1 p 2 20 ]
+"1451
+} 0
+"1453
+[v _filterLatchPacketResponses filterLatchPacketResponses `(uc  1 e 1 0 ]
+{
+"1457
+[v filterLatchPacketResponses@i i `i  1 a 2 10 ]
+"1456
+[v filterLatchPacketResponses@possibleError possibleError `uc  1 a 1 12 ]
+"1453
+[v filterLatchPacketResponses@rxBuffer rxBuffer `*.39uc  1 p 2 0 ]
+[v filterLatchPacketResponses@rx_index rx_index `*.39uc  1 p 2 2 ]
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"1454
+[v filterLatchPacketResponses@readbackPkts readbackPkts `*.39*.39S405  1 p 2 4 ]
+[v filterLatchPacketResponses@count count `uc  1 p 1 6 ]
+"1479
+} 0
+"823
+[v _ASLB_RDResistor ASLB_RDResistor `(v  1 e 1 0 ]
+{
+"829
+[v ASLB_RDResistor@rx_index rx_index `uc  1 a 1 2 ]
+"823
+[v ASLB_RDResistor@rxBuffer rxBuffer `*.39uc  1 p 2 0 ]
+"832
+} 0
+"812
+[v _ASLB_PierceOscillator ASLB_PierceOscillator `(v  1 e 1 0 ]
+{
+"818
+[v ASLB_PierceOscillator@rx_index rx_index `uc  1 a 1 2 ]
+"812
+[v ASLB_PierceOscillator@rxBuffer rxBuffer `*.39uc  1 p 2 0 ]
+"821
+} 0
+"756
+[v _ASLB_OscillatorRegulatorVoltage ASLB_OscillatorRegulatorVoltage `(v  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"768
+[v ASLB_OscillatorRegulatorVoltage@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 5 ]
+"763
+[v ASLB_OscillatorRegulatorVoltage@rx_index rx_index `uc  1 a 1 4 ]
+"756
+[v ASLB_OscillatorRegulatorVoltage@rxBuffer rxBuffer `*.39uc  1 p 2 2 ]
+"770
+} 0
+"575
+[v _ASLB_MuxReadingVDD ASLB_MuxReadingVDD `(v  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"589
+[v ASLB_MuxReadingVDD@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 5 ]
+"583
+[v ASLB_MuxReadingVDD@rx_index rx_index `uc  1 a 1 4 ]
+"575
+[v ASLB_MuxReadingVDD@rxBuffer rxBuffer `*.39uc  1 p 2 2 ]
+"591
+} 0
+"738
+[v _ASLB_MuxOpenCircuit ASLB_MuxOpenCircuit `(v  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"752
+[v ASLB_MuxOpenCircuit@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 5 ]
+"746
+[v ASLB_MuxOpenCircuit@rx_index rx_index `uc  1 a 1 4 ]
+"738
+[v ASLB_MuxOpenCircuit@rxBuffer rxBuffer `*.39uc  1 p 2 2 ]
+"754
+} 0
+"555
+[v _ASLB_InternalTempSensor ASLB_InternalTempSensor `(v  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"569
+[v ASLB_InternalTempSensor@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 5 ]
+"563
+[v ASLB_InternalTempSensor@rx_index rx_index `uc  1 a 1 4 ]
+"555
+[v ASLB_InternalTempSensor@rxBuffer rxBuffer `*.39uc  1 p 2 2 ]
+"573
+} 0
+"396
+[v _ASLB_HeaterFunctionality ASLB_HeaterFunctionality `(v  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"430
+[v ASLB_HeaterFunctionality@ovenWrPkt ovenWrPkt `S405  1 a 71 148 ]
+"427
+[v ASLB_HeaterFunctionality@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 77 ]
+"432
+[v ASLB_HeaterFunctionality@heatDacWrPkt heatDacWrPkt `S405  1 a 71 6 ]
+"437
+[v ASLB_HeaterFunctionality@stream stream `[2]*.39S405  1 a 4 2 ]
+"438
+[v ASLB_HeaterFunctionality@stream_status stream_status `uc  1 a 1 1 ]
+"408
+[v ASLB_HeaterFunctionality@rx_index rx_index `uc  1 a 1 0 ]
+"396
+[v ASLB_HeaterFunctionality@rxBuffer rxBuffer `*.39uc  1 p 2 18 ]
+"457
+} 0
+"533
+[v _ASLB_HeaterFBSignals ASLB_HeaterFBSignals `(v  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"551
+[v ASLB_HeaterFBSignals@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 5 ]
+"539
+[v ASLB_HeaterFBSignals@rx_index rx_index `uc  1 a 1 4 ]
+"533
+[v ASLB_HeaterFBSignals@rxBuffer rxBuffer `*.39uc  1 p 2 2 ]
+"553
+} 0
+"772
+[v _ASLB_ExternalReferenceVoltage ASLB_ExternalReferenceVoltage `(v  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"784
+[v ASLB_ExternalReferenceVoltage@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 5 ]
+"779
+[v ASLB_ExternalReferenceVoltage@rx_index rx_index `uc  1 a 1 4 ]
+"772
+[v ASLB_ExternalReferenceVoltage@rxBuffer rxBuffer `*.39uc  1 p 2 2 ]
+"786
+} 0
+"701
+[v _ASLB_DigitalRegulatorVoltage ASLB_DigitalRegulatorVoltage `(v  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"715
+[v ASLB_DigitalRegulatorVoltage@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 5 ]
+"709
+[v ASLB_DigitalRegulatorVoltage@rx_index rx_index `uc  1 a 1 4 ]
+"701
+[v ASLB_DigitalRegulatorVoltage@rxBuffer rxBuffer `*.39uc  1 p 2 2 ]
+"717
+} 0
+"593
+[v _ASLB_DACReferenceVoltage ASLB_DACReferenceVoltage `(v  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"607
+[v ASLB_DACReferenceVoltage@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 5 ]
+"601
+[v ASLB_DACReferenceVoltage@rx_index rx_index `uc  1 a 1 4 ]
+"593
+[v ASLB_DACReferenceVoltage@rxBuffer rxBuffer `*.39uc  1 p 2 2 ]
+"609
+} 0
+"668
+[v _ASLB_CurrentLimitDACVoltage ASLB_CurrentLimitDACVoltage `(v  1 e 1 0 ]
+{
+"685
+[v ASLB_CurrentLimitDACVoltage@i i `i  1 a 2 82 ]
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"681
+[v ASLB_CurrentLimitDACVoltage@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 11 ]
+"678
+[v ASLB_CurrentLimitDACVoltage@rx_index rx_index `uc  1 a 1 10 ]
+"668
+[v ASLB_CurrentLimitDACVoltage@rxBuffer rxBuffer `*.39uc  1 p 2 8 ]
+"699
+} 0
+"1168
+[v _setCurrLimitDAC setCurrLimitDAC `(uc  1 e 1 0 ]
+{
+[v setCurrLimitDAC@value7bit value7bit `ui  1 p 2 0 ]
+"1185
+} 0
+"342
+[v _ASLB_ContinuityESD ASLB_ContinuityESD `(v  1 e 1 0 ]
+{
+[v ASLB_ContinuityESD@rxBuffer rxBuffer `*.39uc  1 p 2 0 ]
+"345
+} 0
+"845
+[v _ASLB_CommonGate ASLB_CommonGate `(v  1 e 1 0 ]
+{
+"851
+[v ASLB_CommonGate@rx_index rx_index `uc  1 a 1 2 ]
+"845
+[v ASLB_CommonGate@rxBuffer rxBuffer `*.39uc  1 p 2 0 ]
+"854
+} 0
+"801
+[v _ASLB_ColpittsOscillator ASLB_ColpittsOscillator `(v  1 e 1 0 ]
+{
+"807
+[v ASLB_ColpittsOscillator@rx_index rx_index `uc  1 a 1 2 ]
+"801
+[v ASLB_ColpittsOscillator@rxBuffer rxBuffer `*.39uc  1 p 2 0 ]
+"810
+} 0
+"491
+[v _ASLB_CTHERM ASLB_CTHERM `(v  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"507
+[v ASLB_CTHERM@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 5 ]
+"501
+[v ASLB_CTHERM@rx_index rx_index `uc  1 a 1 4 ]
+"491
+[v ASLB_CTHERM@rxBuffer rxBuffer `*.39uc  1 p 2 2 ]
+"510
+} 0
+"834
+[v _ASLB_CFCVVaricap ASLB_CFCVVaricap `(v  1 e 1 0 ]
+{
+"840
+[v ASLB_CFCVVaricap@rx_index rx_index `uc  1 a 1 2 ]
+"834
+[v ASLB_CFCVVaricap@rxBuffer rxBuffer `*.39uc  1 p 2 0 ]
+"843
+} 0
+"459
+[v _ASLB_AnalogMuxReadingSetup ASLB_AnalogMuxReadingSetup `(v  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"480
+[v ASLB_AnalogMuxReadingSetup@ovenWrPkt ovenWrPkt `S405  1 a 71 77 ]
+"478
+[v ASLB_AnalogMuxReadingSetup@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 6 ]
+"484
+[v ASLB_AnalogMuxReadingSetup@stream stream `[2]*.39S405  1 a 4 2 ]
+"485
+[v ASLB_AnalogMuxReadingSetup@stream_status stream_status `uc  1 a 1 1 ]
+"468
+[v ASLB_AnalogMuxReadingSetup@rx_index rx_index `uc  1 a 1 0 ]
+"459
+[v ASLB_AnalogMuxReadingSetup@rxBuffer rxBuffer `*.39uc  1 p 2 18 ]
+"489
+} 0
+"1187
+[v _setupLatchPkt setupLatchPkt `(v  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+[v setupLatchPkt@pkt pkt `*.39S405  1 p 2 5 ]
+[v setupLatchPkt@latch_data latch_data `ui  1 p 2 7 ]
+[v setupLatchPkt@latch_num latch_num `uc  1 p 1 9 ]
+"1199
+} 0
+"512
+[v _ASLB_ADCReferenceVoltage ASLB_ADCReferenceVoltage `(v  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"527
+[v ASLB_ADCReferenceVoltage@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 5 ]
+"521
+[v ASLB_ADCReferenceVoltage@rx_index rx_index `uc  1 a 1 4 ]
+"512
+[v ASLB_ADCReferenceVoltage@rxBuffer rxBuffer `*.39uc  1 p 2 2 ]
+"531
+} 0
+"1201
+[v _setupCmdReadbackPkt setupCmdReadbackPkt `(v  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+[v setupCmdReadbackPkt@pkt pkt `*.39S405  1 p 2 0 ]
+"1207
+} 0
+"856
+[v _ASLB_ADC ASLB_ADC `(v  1 e 1 0 ]
+{
+"869
+[v ASLB_ADC@rx_index rx_index `uc  1 a 1 2 ]
+"856
+[v ASLB_ADC@rxBuffer rxBuffer `*.39uc  1 p 2 0 ]
+"872
+} 0
+"277
+[v _write_ASLBoron_debug write_ASLBoron_debug `(v  1 e 1 0 ]
+{
+[v write_ASLBoron_debug@run_test run_test `uc  1 a 1 wreg ]
+[v write_ASLBoron_debug@run_test run_test `uc  1 a 1 wreg ]
+[v write_ASLBoron_debug@run_cnfg run_cnfg `uc  1 p 1 104 ]
+[v write_ASLBoron_debug@rxBuffer rxBuffer `*.39uc  1 p 2 105 ]
+[v write_ASLBoron_debug@run_test run_test `uc  1 a 1 107 ]
+"340
+} 0
+"1010
+[v _setCommSingleWire setCommSingleWire `(v  1 e 1 0 ]
+{
+"1013
+} 0
+"1015
+[v _setCommI2C setCommI2C `(v  1 e 1 0 ]
+{
+"1018
+} 0
+"1481
+[v _resetSFRData resetSFRData `(v  1 e 1 0 ]
+{
+"1524
+} 0
+"1526
+[v _resetLATCHData resetLATCHData `(v  1 e 1 0 ]
+{
+"1541
+} 0
+"1020
+[v _findMaxI2CSpeed findMaxI2CSpeed `(v  1 e 1 0 ]
+{
+"1052
+[v findMaxI2CSpeed@i i `uc  1 a 1 9 ]
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"1030
+[v findMaxI2CSpeed@ramWrPkt ramWrPkt `S405  1 a 71 82 ]
+"1042
+[v findMaxI2CSpeed@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 10 ]
+"1047
+[v findMaxI2CSpeed@stream stream `[2]*.39S405  1 a 4 2 ]
+"1028
+[v findMaxI2CSpeed@bRate bRate `ui  1 a 2 7 ]
+"1022
+[v findMaxI2CSpeed@rx_index rx_index `uc  1 a 1 81 ]
+"1026
+[v findMaxI2CSpeed@ramData ramData `uc  1 a 1 6 ]
+"1025
+[v findMaxI2CSpeed@ramAddrLo ramAddrLo `uc  1 a 1 1 ]
+"1024
+[v findMaxI2CSpeed@ramAddrHi ramAddrHi `uc  1 a 1 0 ]
+"1020
+[v findMaxI2CSpeed@rxBuffer rxBuffer `*.39uc  1 p 2 21 ]
+"1086
+} 0
+"1088
+[v _calcBaudRate calcBaudRate `(ui  1 e 2 0 ]
+{
+[v calcBaudRate@bd bd `uc  1 a 1 wreg ]
+"1090
+[v calcBaudRate@bRate bRate `ui  1 a 2 19 ]
+"1088
+[v calcBaudRate@bd bd `uc  1 a 1 wreg ]
+"1090
+[v calcBaudRate@bd bd `uc  1 a 1 18 ]
+"1092
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+{
+"11
+[v ___aldiv@quotient quotient `l  1 a 4 10 ]
+"12
+[v ___aldiv@sign sign `uc  1 a 1 9 ]
+[v ___aldiv@counter counter `uc  1 a 1 8 ]
+"8
+[v ___aldiv@dividend dividend `l  1 p 4 0 ]
+[v ___aldiv@divisor divisor `l  1 p 4 4 ]
+"42
+} 0
+"1120 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_ASL_BORON.c
+[v _cycleBoronPower cycleBoronPower `(v  1 e 1 0 ]
+{
+"1125
+} 0
+"989
+[v _ASLB_debug3 ASLB_debug3 `(v  1 e 1 0 ]
+{
+[v ASLB_debug3@dataByte dataByte `uc  1 a 1 wreg ]
+"995
+[v ASLB_debug3@rx_index rx_index `uc  1 a 1 4 ]
+"989
+[v ASLB_debug3@dataByte dataByte `uc  1 a 1 wreg ]
+[v ASLB_debug3@rxBuffer rxBuffer `*.39uc  1 p 2 1 ]
+"995
+[v ASLB_debug3@dataByte dataByte `uc  1 a 1 3 ]
+"1008
+} 0
+"1127
+[v _adjustI2CBaudRate adjustI2CBaudRate `(uc  1 e 1 0 ]
+{
+[v adjustI2CBaudRate@bd bd `uc  1 a 1 wreg ]
+[v adjustI2CBaudRate@bd bd `uc  1 a 1 wreg ]
+"1134
+[v adjustI2CBaudRate@bd bd `uc  1 a 1 0 ]
+"1143
+} 0
+"976
+[v _ASLB_debug2 ASLB_debug2 `(v  1 e 1 0 ]
+{
+"985
+[v ASLB_debug2@zeros zeros `[10]uc  1 a 10 26 ]
+"983
+[v ASLB_debug2@wr_status wr_status `uc  1 a 1 37 ]
+"982
+[v ASLB_debug2@rx_index rx_index `uc  1 a 1 36 ]
+"976
+[v ASLB_debug2@rxBuffer rxBuffer `*.39uc  1 p 2 24 ]
+"984
+[v ASLB_debug2@F12373 F12373 `[10]uc  1 s 10 F12373 ]
+"987
+} 0
+"5 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\Utils.c
+[v _writeI2C writeI2C `(uc  1 e 1 0 ]
+{
+"8
+[v writeI2C@timeOut timeOut `ui  1 a 2 21 ]
+"7
+[v writeI2C@status status `E11632  1 a 1 23 ]
+"5
+[v writeI2C@txData txData `*.39uc  1 p 2 16 ]
+[v writeI2C@size size `uc  1 p 1 18 ]
+[v writeI2C@slaveAddr slaveAddr `ui  1 p 2 19 ]
+"41
+} 0
+"600 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/i2c1.c
+[v _I2C1_MasterWrite I2C1_MasterWrite `(v  1 e 1 0 ]
+{
+"601
+[v I2C1_MasterWrite@pdata pdata `*.39uc  1 p 2 9 ]
+"602
+[v I2C1_MasterWrite@length length `uc  1 p 1 11 ]
+"603
+[v I2C1_MasterWrite@address address `ui  1 p 2 12 ]
+"604
+[v I2C1_MasterWrite@pflag pflag `*.39E11632  1 p 2 14 ]
+[s S423 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"606
+[v I2C1_MasterWrite@trBlock trBlock `S423  1 s 5 trBlock ]
+"619
+} 0
+"896 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_ASL_BORON.c
+[v _ASLB_debug1 ASLB_debug1 `(v  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"913
+[v ASLB_debug1@ramWrPkt ramWrPkt `S405  1 a 71 71 ]
+"908
+[v ASLB_debug1@ramRdPkt ramRdPkt `S405  1 a 71 0 ]
+"910
+[v ASLB_debug1@ramReadbackPkt ramReadbackPkt `S405  1 a 71 162 ]
+"909
+[v ASLB_debug1@cmdReadbackPkt cmdReadbackPkt `S405  1 a 71 33 ]
+"945
+[v ASLB_debug1@stream stream `[4]*.39S405  1 a 8 22 ]
+"902
+[v ASLB_debug1@rx_index rx_index `uc  1 a 1 32 ]
+"905
+[v ASLB_debug1@ramAddrLo ramAddrLo `uc  1 a 1 31 ]
+"904
+[v ASLB_debug1@ramAddrHi ramAddrHi `uc  1 a 1 30 ]
+"903
+[v ASLB_debug1@stream_status stream_status `uc  1 a 1 21 ]
+"906
+[v ASLB_debug1@ramData ramData `uc  1 a 1 20 ]
+"896
+[v ASLB_debug1@rxBuffer rxBuffer `*.39uc  1 p 2 18 ]
+"974
+} 0
+"77 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\Utils.c
+[v _streamBoronComm streamBoronComm `(uc  1 e 1 0 ]
+{
+[v streamBoronComm@boron_comm_type boron_comm_type `uc  1 a 1 wreg ]
+[v streamBoronComm@boron_comm_type boron_comm_type `uc  1 a 1 wreg ]
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+[v streamBoronComm@pktArr pktArr `*.39*.39S405  1 p 2 14 ]
+[v streamBoronComm@pktSize pktSize `uc  1 p 1 16 ]
+"79
+[v streamBoronComm@boron_comm_type boron_comm_type `uc  1 a 1 17 ]
+"87
+} 0
+"89
+[v _streamSW streamSW `(uc  1 e 1 0 ]
+{
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+[v streamSW@pktArr pktArr `*.39*.39S405  1 p 2 0 ]
+[v streamSW@pktSize pktSize `uc  1 p 1 2 ]
+"94
+} 0
+"96
+[v _streamI2C streamI2C `(uc  1 e 1 0 ]
+{
+[s S423 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"98
+[v streamI2C@trBlock trBlock `[32]S423  1 a 160 0 ]
+"100
+[v streamI2C@i i `uc  1 a 1 161 ]
+"99
+[v streamI2C@status status `E11632  1 a 1 160 ]
+[s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
+"96
+[v streamI2C@pktArr pktArr `*.39*.39S405  1 p 2 9 ]
+[v streamI2C@pktSize pktSize `uc  1 p 1 11 ]
+"132
+} 0
+"708 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/i2c1.c
+[v _I2C1_MasterWriteTRBBuild I2C1_MasterWriteTRBBuild `(v  1 e 1 0 ]
+{
+[s S423 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"709
+[v I2C1_MasterWriteTRBBuild@ptrb ptrb `*.39S423  1 p 2 0 ]
+"710
+[v I2C1_MasterWriteTRBBuild@pdata pdata `*.39uc  1 p 2 2 ]
+"711
+[v I2C1_MasterWriteTRBBuild@length length `uc  1 p 1 4 ]
+"712
+[v I2C1_MasterWriteTRBBuild@address address `ui  1 p 2 5 ]
+"717
+} 0
+"642
+[v _I2C1_MasterTRBInsert I2C1_MasterTRBInsert `(v  1 e 1 0 ]
+{
+"643
+[v I2C1_MasterTRBInsert@count count `uc  1 a 1 wreg ]
+[v I2C1_MasterTRBInsert@count count `uc  1 a 1 wreg ]
+[s S423 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"644
+[v I2C1_MasterTRBInsert@ptrb_list ptrb_list `*.39S423  1 p 2 0 ]
+"645
+[v I2C1_MasterTRBInsert@pflag pflag `*.39E11632  1 p 2 2 ]
+"649
+[v I2C1_MasterTRBInsert@count count `uc  1 a 1 5 ]
+"693
+} 0
+"695
+[v _I2C1_MasterReadTRBBuild I2C1_MasterReadTRBBuild `(v  1 e 1 0 ]
+{
+[s S423 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"696
+[v I2C1_MasterReadTRBBuild@ptrb ptrb `*.39S423  1 p 2 0 ]
+"697
+[v I2C1_MasterReadTRBBuild@pdata pdata `*.39uc  1 p 2 2 ]
+"698
+[v I2C1_MasterReadTRBBuild@length length `uc  1 p 1 4 ]
+"699
+[v I2C1_MasterReadTRBBuild@address address `ui  1 p 2 5 ]
+"706
+} 0
+"27 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+{
+"31
+[v memcpy@s s `*.39Cuc  1 a 2 9 ]
+"30
+[v memcpy@d d `*.39uc  1 a 2 7 ]
+"32
+[v memcpy@tmp tmp `uc  1 a 1 6 ]
+"27
+[v memcpy@d1 d1 `*.39v  1 p 2 0 ]
+[v memcpy@s1 s1 `*.39Cv  1 p 2 2 ]
+[v memcpy@n n `ui  1 p 2 4 ]
+"41
+} 0
+"180 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\Utils.c
+[v _calcChecksum calcChecksum `(uc  1 e 1 0 ]
+{
+"183
+[v calcChecksum@i i `uc  1 a 1 3 ]
+"182
+[v calcChecksum@temp_checksum temp_checksum `uc  1 a 1 4 ]
+"180
+[v calcChecksum@data data `*.39uc  1 p 2 0 ]
+[v calcChecksum@size size `uc  1 p 1 2 ]
+"189
+} 0
+"884 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_ASL_BORON.c
+[v _ASLB_debug0 ASLB_debug0 `(v  1 e 1 0 ]
+{
+"891
+[v ASLB_debug0@rx_index rx_index `uc  1 a 1 2 ]
+"884
+[v ASLB_debug0@rxBuffer rxBuffer `*.39uc  1 p 2 0 ]
+"894
+} 0
+"272
+[v _write_ASLBoron_cstm_cnfg write_ASLBoron_cstm_cnfg `(v  1 e 1 0 ]
+{
+[v write_ASLBoron_cstm_cnfg@cnfg_arr cnfg_arr `*.39uc  1 p 2 0 ]
+[v write_ASLBoron_cstm_cnfg@cnfg_arr_size cnfg_arr_size `ui  1 p 2 2 ]
+[v write_ASLBoron_cstm_cnfg@rxBuffer rxBuffer `*.39uc  1 p 2 4 ]
+"275
+} 0
+"251
+[v _write_ASLBoron_cnfg write_ASLBoron_cnfg `(v  1 e 1 0 ]
+{
+[v write_ASLBoron_cnfg@run_cnfg run_cnfg `uc  1 a 1 wreg ]
+[v write_ASLBoron_cnfg@run_cnfg run_cnfg `uc  1 a 1 wreg ]
+[v write_ASLBoron_cnfg@rxBuffer rxBuffer `*.39uc  1 p 2 2 ]
+[v write_ASLBoron_cnfg@run_cnfg run_cnfg `uc  1 a 1 4 ]
+"270
+} 0
+"879
+[v _ASLB_cnfg1 ASLB_cnfg1 `(v  1 e 1 0 ]
+{
+[v ASLB_cnfg1@rxBuffer rxBuffer `*.39uc  1 p 2 0 ]
+"882
+} 0
+"874
+[v _ASLB_cnfg0 ASLB_cnfg0 `(v  1 e 1 0 ]
+{
+[v ASLB_cnfg0@rxBuffer rxBuffer `*.39uc  1 p 2 0 ]
+"877
+} 0
+"229 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_CommInterface.c
+[v _hxHandleTxUART hxHandleTxUART `(v  1 e 1 0 ]
+{
+"234
+[v hxHandleTxUART@i i `i  1 a 2 7 ]
+"246
+} 0
+"270
+[v _hxStopTimer hxStopTimer `(v  1 e 1 0 ]
+{
+"274
+} 0
+"119 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/tmr0.c
+[v _TMR0_Write16bitTimer TMR0_Write16bitTimer `(v  1 e 1 0 ]
+{
+[v TMR0_Write16bitTimer@timerVal timerVal `ui  1 p 2 0 ]
+"124
+} 0
+"100
+[v _TMR0_StopTimer TMR0_StopTimer `(v  1 e 1 0 ]
+{
+"104
+} 0
+"144 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 0 ]
+"168
+} 0
+"115 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"124
+} 0
+"65 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"150
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.3v  1 p 3 0 ]
+"152
+} 0
+"51 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"105
+[v PIN_MANAGER_Initialize@state state `uc  1 a 1 0 ]
+"123
+} 0
+"126 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"138
+} 0
+"51 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"198 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/i2c1.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"224
+} 0
+"76 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"122
+} 0
+"18 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_CommInterface.c
+[v _HX_Initialize HX_Initialize `(v  1 e 1 0 ]
+{
+"26
+} 0
+"283
+[v _hxFlushOutputBuffer hxFlushOutputBuffer `(v  1 e 1 0 ]
+{
+"287
+} 0
+"289
+[v _hxFlushMainDataBuffer hxFlushMainDataBuffer `(v  1 e 1 0 ]
+{
+"293
+} 0
+"276
+[v _hxFlushInputBuffer hxFlushInputBuffer `(v  1 e 1 0 ]
+{
+"281
+} 0
+"306
+[v _hxClearArray hxClearArray `(v  1 e 1 0 ]
+{
+"308
+[v hxClearArray@i i `uc  1 a 1 3 ]
+"306
+[v hxClearArray@arr arr `*.39uc  1 p 2 0 ]
+[v hxClearArray@size size `uc  1 p 1 2 ]
+"312
+} 0
+"57 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"84
+} 0
+"133 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"147
+} 0
+"154
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"158
+} 0
+"248 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_CommInterface.c
+[v _hxHandleTmr0 hxHandleTmr0 `(v  1 e 1 0 ]
+{
+"262
+} 0
+"235 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/i2c1.c
+[v _I2C1_ISR I2C1_ISR `(v  1 e 1 0 ]
+{
+"238
+[v I2C1_ISR@pi2c_buf_ptr pi2c_buf_ptr `*.39uc  1 s 2 pi2c_buf_ptr ]
+"239
+[v I2C1_ISR@i2c_address i2c_address `ui  1 s 2 i2c_address ]
+"240
+[v I2C1_ISR@i2c_bytes_left i2c_bytes_left `uc  1 s 1 i2c_bytes_left ]
+"241
+[v I2C1_ISR@i2c_10bit_address_restart i2c_10bit_address_restart `uc  1 s 1 i2c_10bit_address_restart ]
+"563
+} 0
+"583
+[v _I2C1_Stop I2C1_Stop `(v  1 e 1 0 ]
+{
+[v I2C1_Stop@completion_code completion_code `E11632  1 a 1 wreg ]
+[v I2C1_Stop@completion_code completion_code `E11632  1 a 1 wreg ]
+"586
+[v I2C1_Stop@completion_code completion_code `E11632  1 a 1 2 ]
+"598
+} 0
+"565
+[v _I2C1_FunctionComplete I2C1_FunctionComplete `(v  1 e 1 0 ]
+{
+"581
+} 0
+"729
+[v _I2C1_BusCollisionISR I2C1_BusCollisionISR `(v  1 e 1 0 ]
+{
+"732
+} 0
+"170 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Transmit_ISR EUSART1_Transmit_ISR `(v  1 e 1 0 ]
+{
+"188
+} 0
+"190
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+{
+"202
+} 0
+"28 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_CommInterface.c
+[v _hxISRHandle hxISRHandle `(v  1 e 1 0 ]
+{
+[v hxISRHandle@data data `uc  1 a 1 wreg ]
+[v hxISRHandle@data data `uc  1 a 1 wreg ]
+"30
+[v hxISRHandle@currentByteCounter currentByteCounter `uc  1 s 1 currentByteCounter ]
+"31
+[v hxISRHandle@rxPktSizeFlag rxPktSizeFlag `uc  1 s 1 rxPktSizeFlag ]
+"32
+[v hxISRHandle@rxHxCmdFlag rxHxCmdFlag `uc  1 s 1 rxHxCmdFlag ]
+"33
+[v hxISRHandle@pktSize pktSize `uc  1 s 1 pktSize ]
+"34
+[v hxISRHandle@rxHxPktFlag rxHxPktFlag `uc  1 s 1 rxHxPktFlag ]
+"36
+[v hxISRHandle@data data `uc  1 a 1 16 ]
+"103
+} 0
+"270
+[v i2_hxStopTimer hxStopTimer `(v  1 e 1 0 ]
+{
+"274
+} 0
+"100 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/tmr0.c
+[v i2_TMR0_StopTimer TMR0_StopTimer `(v  1 e 1 0 ]
+{
+"104
+} 0
+"105 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_CommInterface.c
+[v _hxCmdFilter hxCmdFilter `(v  1 e 1 0 ]
+{
+"163
+[v hxCmdFilter@i i `uc  1 a 1 8 ]
+"205
+} 0
+"289
+[v i2_hxFlushMainDataBuffer hxFlushMainDataBuffer `(v  1 e 1 0 ]
+{
+"293
+} 0
+"276
+[v i2_hxFlushInputBuffer hxFlushInputBuffer `(v  1 e 1 0 ]
+{
+"281
+} 0
+"264
+[v _hxStartTimer hxStartTimer `(v  1 e 1 0 ]
+{
+[v hxStartTimer@timerVal timerVal `ui  1 p 2 2 ]
+"268
+} 0
+"119 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\mcc_generated_files/tmr0.c
+[v i2_TMR0_Write16bitTimer TMR0_Write16bitTimer `(v  1 e 1 0 ]
+{
+[v i2TMR0_Write16bitTimer@timerVal timerVal `ui  1 p 2 0 ]
+"124
+} 0
+"94
+[v _TMR0_StartTimer TMR0_StartTimer `(v  1 e 1 0 ]
+{
+"98
+} 0
+"216 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_CommInterface.c
+[v _hxSetupPacket2 hxSetupPacket2 `(v  1 e 1 0 ]
+{
+[v hxSetupPacket2@pc_cmd pc_cmd `uc  1 a 1 wreg ]
+"219
+[v hxSetupPacket2@i i `uc  1 a 1 7 ]
+"216
+[v hxSetupPacket2@pc_cmd pc_cmd `uc  1 a 1 wreg ]
+"218
+[v hxSetupPacket2@pc_cmd pc_cmd `uc  1 a 1 6 ]
+"227
+} 0
+"207
+[v _hxSetupPacket1 hxSetupPacket1 `(v  1 e 1 0 ]
+{
+[v hxSetupPacket1@pc_cmd pc_cmd `uc  1 a 1 wreg ]
+[v hxSetupPacket1@pc_cmd pc_cmd `uc  1 a 1 wreg ]
+[v hxSetupPacket1@data data `uc  1 p 1 5 ]
+"209
+[v hxSetupPacket1@pc_cmd pc_cmd `uc  1 a 1 7 ]
+"214
+} 0
+"283
+[v i2_hxFlushOutputBuffer hxFlushOutputBuffer `(v  1 e 1 0 ]
+{
+"287
+} 0
+"306
+[v i2_hxClearArray hxClearArray `(v  1 e 1 0 ]
+{
+[v i2hxClearArray@i hxClearArray `uc  1 a 1 3 ]
+[v i2hxClearArray@arr arr `*.39uc  1 p 2 0 ]
+[v i2hxClearArray@size size `uc  1 p 1 2 ]
+"312
+} 0
+"295
+[v _hxCalcChecksum hxCalcChecksum `(uc  1 e 1 0 ]
+{
+"298
+[v hxCalcChecksum@i i `uc  1 a 1 3 ]
+"297
+[v hxCalcChecksum@temp_checksum temp_checksum `uc  1 a 1 4 ]
+"295
+[v hxCalcChecksum@data data `*.39uc  1 p 2 0 ]
+[v hxCalcChecksum@size size `uc  1 p 1 2 ]
+"304
+} 0

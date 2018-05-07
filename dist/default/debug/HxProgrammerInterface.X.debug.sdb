@@ -1,0 +1,1393 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F47K40 ]
+[d frameptr 4065 ]
+"8 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\EEPROM.c
+[e E11597 . `uc
+EEPROM_WRITE_SUCCESS 0
+EEPROM_WRITE_FAIL 1
+EEPROM_READ_SUCCESS 2
+EEPROM_READ_FAIL 3
+EEPROM_ERASE_SUCCESS 4
+EEPROM_ERASE_FAIL 5
+EEPROM_OUT_OF_BOUNDS 6
+]
+"6 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\Utils.c
+[e E11599 . `uc
+I2C1_MESSAGE_COMPLETE 0
+I2C1_MESSAGE_FAIL 1
+I2C1_MESSAGE_PENDING 2
+I2C1_STUCK_START 3
+I2C1_MESSAGE_ADDRESS_NO_ACK 4
+I2C1_DATA_NO_ACK 5
+I2C1_LOST_STATE 6
+]
+"184 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/i2c1.c
+[e E11599 . `uc
+I2C1_MESSAGE_COMPLETE 0
+I2C1_MESSAGE_FAIL 1
+I2C1_MESSAGE_PENDING 2
+I2C1_STUCK_START 3
+I2C1_MESSAGE_ADDRESS_NO_ACK 4
+I2C1_DATA_NO_ACK 5
+I2C1_LOST_STATE 6
+]
+"186
+[e E11667 . `uc
+S_MASTER_IDLE 0
+S_MASTER_RESTART 1
+S_MASTER_SEND_ADDR 2
+S_MASTER_SEND_DATA 3
+S_MASTER_SEND_STOP 4
+S_MASTER_ACK_ADDR 5
+S_MASTER_RCV_DATA 6
+S_MASTER_RCV_STOP 7
+S_MASTER_ACK_RCV_DATA 8
+S_MASTER_NOACK_STOP 9
+S_MASTER_SEND_ADDR_10BIT_LSB 10
+S_MASTER_10BIT_RESTART 11
+]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"7 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\EEPROM.c
+[v _EEPROM_WriteByte EEPROM_WriteByte `(E11597  1 e 1 0 ]
+"38
+[v _EEPROM_ReadByte EEPROM_ReadByte `(E11597  1 e 1 0 ]
+"58
+[v _EEPROM_EraseBlock EEPROM_EraseBlock `(E11597  1 e 1 0 ]
+"14 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\HX_ASL_BORON.c
+[v _run_ASLBoron run_ASLBoron `(v  1 e 1 0 ]
+"96
+[v _write_ASLBoron_test write_ASLBoron_test `(v  1 e 1 0 ]
+"131
+[v _write_ASLBoron_cnfg write_ASLBoron_cnfg `(v  1 e 1 0 ]
+"152
+[v _write_ASLBoron_cstm_cnfg write_ASLBoron_cstm_cnfg `(v  1 e 1 0 ]
+"165
+[v _ASLB_test0 ASLB_test0 `(v  1 e 1 0 ]
+"173
+[v _ASLB_test1 ASLB_test1 `(v  1 e 1 0 ]
+"242
+[v _ASLB_cnfg0 ASLB_cnfg0 `(v  1 e 1 0 ]
+"247
+[v _ASLB_cnfg1 ASLB_cnfg1 `(v  1 e 1 0 ]
+"253
+[v _ARDUINO_test_debug ARDUINO_test_debug `(v  1 e 1 0 ]
+"18 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\HX_CommInterface.c
+[v _HX_Initialize HX_Initialize `(v  1 e 1 0 ]
+"28
+[v _hxISRHandle hxISRHandle `(v  1 e 1 0 ]
+"105
+[v _hxCmdFilter hxCmdFilter `(v  1 e 1 0 ]
+"207
+[v _hxSetupPacket1 hxSetupPacket1 `(v  1 e 1 0 ]
+"216
+[v _hxSetupPacket2 hxSetupPacket2 `(v  1 e 1 0 ]
+"229
+[v _hxHandleTxUART hxHandleTxUART `(v  1 e 1 0 ]
+"244
+[v _hxHandleTmr0 hxHandleTmr0 `(v  1 e 1 0 ]
+"260
+[v _hxStartTimer hxStartTimer `(v  1 e 1 0 ]
+"266
+[v _hxStopTimer hxStopTimer `(v  1 e 1 0 ]
+[v i2_hxStopTimer hxStopTimer `(v  1 e 1 0 ]
+"272
+[v _hxFlushInputBuffer hxFlushInputBuffer `(v  1 e 1 0 ]
+[v i2_hxFlushInputBuffer hxFlushInputBuffer `(v  1 e 1 0 ]
+"279
+[v _hxFlushOutputBuffer hxFlushOutputBuffer `(v  1 e 1 0 ]
+[v i2_hxFlushOutputBuffer hxFlushOutputBuffer `(v  1 e 1 0 ]
+"285
+[v _hxFlushMainDataBuffer hxFlushMainDataBuffer `(v  1 e 1 0 ]
+[v i2_hxFlushMainDataBuffer hxFlushMainDataBuffer `(v  1 e 1 0 ]
+"291
+[v _hxCalcChecksum hxCalcChecksum `(uc  1 e 1 0 ]
+"302
+[v _hxClearArray hxClearArray `(v  1 e 1 0 ]
+[v i2_hxClearArray hxClearArray `(v  1 e 1 0 ]
+"14 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\HX_I2C.c
+[v _run_I2C run_I2C `(v  1 e 1 0 ]
+"28 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\HX_SPP.c
+[v _hxSPP hxSPP `(v  1 e 1 0 ]
+"3 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\HX_SPP_CARBON.c
+[v _run_SPPCarbon_test run_SPPCarbon_test `(v  1 e 1 0 ]
+"112
+[v _hxSPPCarbonWriteAndVerity_test hxSPPCarbonWriteAndVerity_test `(v  1 e 1 0 ]
+"146
+[v _hxSPPCarbonWrite_test hxSPPCarbonWrite_test `(v  1 e 1 0 ]
+"161
+[v _hxSPPCarbonRead_test hxSPPCarbonRead_test `(v  1 e 1 0 ]
+"175
+[v _hxSPPCarbonReadReg_test hxSPPCarbonReadReg_test `(uc  1 e 1 0 ]
+"377
+[v _hxSPPCarbonWriteReg_test hxSPPCarbonWriteReg_test `(uc  1 e 1 0 ]
+"483
+[v _hxSPPCarbonProgram_test hxSPPCarbonProgram_test `(v  1 e 1 0 ]
+"593
+[v _hxSPPCarbonCheckBusy_test hxSPPCarbonCheckBusy_test `(v  1 e 1 0 ]
+"795
+[v _hxOddParityCalc hxOddParityCalc `(uc  1 e 1 0 ]
+"57 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"75 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"132
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"155
+[v _EUSART1_Transmit_ISR EUSART1_Transmit_ISR `(v  1 e 1 0 ]
+"174
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+"198 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/i2c1.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"233
+[v _I2C1_ISR I2C1_ISR `(v  1 e 1 0 ]
+"563
+[v _I2C1_FunctionComplete I2C1_FunctionComplete `(v  1 e 1 0 ]
+"581
+[v _I2C1_Stop I2C1_Stop `(v  1 e 1 0 ]
+"598
+[v _I2C1_MasterWrite I2C1_MasterWrite `(v  1 e 1 0 ]
+"619
+[v _I2C1_MasterRead I2C1_MasterRead `(v  1 e 1 0 ]
+"641
+[v _I2C1_MasterTRBInsert I2C1_MasterTRBInsert `(v  1 e 1 0 ]
+"694
+[v _I2C1_MasterReadTRBBuild I2C1_MasterReadTRBBuild `(v  1 e 1 0 ]
+"707
+[v _I2C1_MasterWriteTRBBuild I2C1_MasterWriteTRBBuild `(v  1 e 1 0 ]
+"728
+[v _I2C1_BusCollisionISR I2C1_BusCollisionISR `(v  1 e 1 0 ]
+"51 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"57
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"115 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"126
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"51 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"65 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"94
+[v _TMR0_StartTimer TMR0_StartTimer `(v  1 e 1 0 ]
+"100
+[v _TMR0_StopTimer TMR0_StopTimer `(v  1 e 1 0 ]
+[v i2_TMR0_StopTimer TMR0_StopTimer `(v  1 e 1 0 ]
+"119
+[v _TMR0_Write16bitTimer TMR0_Write16bitTimer `(v  1 e 1 0 ]
+[v i2_TMR0_Write16bitTimer TMR0_Write16bitTimer `(v  1 e 1 0 ]
+"133
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"150
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"154
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"36 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\TEST_ROUTINES.c
+[v _hxSPP_test hxSPP_test `(v  1 e 1 0 ]
+"4 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\Utils.c
+[v _writeI2C writeI2C `(uc  1 e 1 0 ]
+"43
+[v _readI2C readI2C `(uc  1 e 1 0 ]
+"76
+[v _calcChecksum calcChecksum `(uc  1 e 1 0 ]
+"2014 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic18f47k40.h
+[v _PPSLOCK PPSLOCK `VEuc  1 e 1 @3744 ]
+[s S1667 . 1 `uc 1 PPSLOCKED 1 0 :1:0 
+]
+"2024
+[u S1669 . 1 `S1667 1 . 1 0 ]
+[v _PPSLOCKbits PPSLOCKbits `VES1669  1 e 1 @3744 ]
+[s S1677 . 1 `uc 1 RXPPS 1 0 :5:0 
+]
+"3193
+[u S1679 . 1 `S1677 1 . 1 0 ]
+[v _RX1PPSbits RX1PPSbits `VES1679  1 e 1 @3765 ]
+[s S1684 . 1 `uc 1 SSPCLKPPS 1 0 :5:0 
+]
+"3231
+[u S1686 . 1 `S1684 1 . 1 0 ]
+[v _SSP1CLKPPSbits SSP1CLKPPSbits `VES1686  1 e 1 @3767 ]
+[s S1691 . 1 `uc 1 SSPDATPPS 1 0 :5:0 
+]
+"3250
+[u S1693 . 1 `S1691 1 . 1 0 ]
+[v _SSP1DATPPSbits SSP1DATPPSbits `VES1693  1 e 1 @3768 ]
+[s S1351 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 INT1IE 1 0 :1:1 
+`uc 1 INT2IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"3681
+[u S1358 . 1 `S1351 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES1358  1 e 1 @3778 ]
+[s S1014 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 SSP2IE 1 0 :1:2 
+`uc 1 BCL2IE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 TX2IE 1 0 :1:6 
+`uc 1 RC2IE 1 0 :1:7 
+]
+"3834
+[s S1023 . 1 `uc 1 RXB0IE 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+`uc 1 TXB0IE 1 0 :1:2 
+`uc 1 TXB1IE 1 0 :1:3 
+`uc 1 TXB2IE 1 0 :1:4 
+]
+[s S1029 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIE 1 0 :1:4 
+]
+[u S1034 . 1 `S1014 1 . 1 0 `S1023 1 . 1 0 `S1029 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES1034  1 e 1 @3781 ]
+[s S1368 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 INT1IF 1 0 :1:1 
+`uc 1 INT2IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"4079
+[u S1375 . 1 `S1368 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES1375  1 e 1 @3786 ]
+[s S982 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 TX2IF 1 0 :1:6 
+`uc 1 RC2IF 1 0 :1:7 
+]
+"4225
+[s S991 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S996 . 1 `S982 1 . 1 0 `S991 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES996  1 e 1 @3789 ]
+[s S102 . 1 `uc 1 CWGIF 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 NVMIF 1 0 :1:5 
+`uc 1 CRCIF 1 0 :1:6 
+`uc 1 SCANIF 1 0 :1:7 
+]
+"4401
+[s S108 . 1 `uc 1 CWG1IF 1 0 :1:0 
+]
+[u S110 . 1 `S102 1 . 1 0 `S108 1 . 1 0 ]
+[v _PIR7bits PIR7bits `VES110  1 e 1 @3793 ]
+"5002
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3800 ]
+"5140
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @3802 ]
+"5290
+[v _OSCEN OSCEN `VEuc  1 e 1 @3804 ]
+"5340
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3805 ]
+"5397
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3806 ]
+"6179
+[v _RB1PPS RB1PPS `VEuc  1 e 1 @3824 ]
+"6523
+[v _RC1PPS RC1PPS `VEuc  1 e 1 @3832 ]
+"6566
+[v _RC2PPS RC2PPS `VEuc  1 e 1 @3833 ]
+"7602
+[v _ODCONA ODCONA `VEuc  1 e 1 @3855 ]
+"7663
+[v _WPUA WPUA `VEuc  1 e 1 @3856 ]
+"7724
+[v _ANSELA ANSELA `VEuc  1 e 1 @3857 ]
+"8090
+[v _ODCONB ODCONB `VEuc  1 e 1 @3863 ]
+"8151
+[v _WPUB WPUB `VEuc  1 e 1 @3864 ]
+"8212
+[v _ANSELB ANSELB `VEuc  1 e 1 @3865 ]
+"8578
+[v _ODCONC ODCONC `VEuc  1 e 1 @3871 ]
+"8639
+[v _WPUC WPUC `VEuc  1 e 1 @3872 ]
+"8700
+[v _ANSELC ANSELC `VEuc  1 e 1 @3873 ]
+"8883
+[v _ODCOND ODCOND `VEuc  1 e 1 @3876 ]
+"8944
+[v _WPUD WPUD `VEuc  1 e 1 @3877 ]
+"9005
+[v _ANSELD ANSELD `VEuc  1 e 1 @3878 ]
+"9194
+[v _ODCONE ODCONE `VEuc  1 e 1 @3884 ]
+"9225
+[v _WPUE WPUE `VEuc  1 e 1 @3885 ]
+"9262
+[v _ANSELE ANSELE `VEuc  1 e 1 @3886 ]
+"15172
+[v _NVMADRL NVMADRL `VEuc  1 e 1 @3966 ]
+"15425
+[v _NVMADRH NVMADRH `VEuc  1 e 1 @3967 ]
+"15480
+[v _NVMDAT NVMDAT `VEuc  1 e 1 @3968 ]
+[s S69 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 NVMREG 1 0 :2:6 
+]
+"15570
+[s S77 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NVMREG0 1 0 :1:6 
+`uc 1 NVMREG1 1 0 :1:7 
+]
+[u S81 . 1 `S69 1 . 1 0 `S77 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES81  1 e 1 @3969 ]
+"15614
+[v _NVMCON2 NVMCON2 `VEuc  1 e 1 @3970 ]
+"15633
+[v _LATA LATA `VEuc  1 e 1 @3971 ]
+[s S492 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"15660
+[s S501 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S510 . 1 `S492 1 . 1 0 `S501 1 . 1 0 ]
+[v _LATAbits LATAbits `VES510  1 e 1 @3971 ]
+"15744
+[v _LATB LATB `VEuc  1 e 1 @3972 ]
+"15855
+[v _LATC LATC `VEuc  1 e 1 @3973 ]
+"15966
+[v _LATD LATD `VEuc  1 e 1 @3974 ]
+"16077
+[v _LATE LATE `VEuc  1 e 1 @3975 ]
+"16173
+[v _TRISA TRISA `VEuc  1 e 1 @3976 ]
+"16294
+[v _TRISB TRISB `VEuc  1 e 1 @3977 ]
+"16415
+[v _TRISC TRISC `VEuc  1 e 1 @3978 ]
+"16536
+[v _TRISD TRISD `VEuc  1 e 1 @3979 ]
+"16657
+[v _TRISE TRISE `VEuc  1 e 1 @3980 ]
+"16718
+[v _PORTA PORTA `VEuc  1 e 1 @3981 ]
+[s S360 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"16742
+[s S369 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 LVDIN 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 RJPU 1 0 :1:7 
+]
+[u S375 . 1 `S360 1 . 1 0 `S369 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES375  1 e 1 @3981 ]
+"17232
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @3986 ]
+"17251
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @3987 ]
+"17439
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @3989 ]
+"17892
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @3990 ]
+[s S1059 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"17922
+[s S1065 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S1070 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S1079 . 1 `S1059 1 . 1 0 `S1065 1 . 1 0 `S1070 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES1079  1 e 1 @3990 ]
+[s S1104 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"18058
+[s S1113 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK 1 0 :5:1 
+]
+[s S1116 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S1123 . 1 `uc 1 SEN1 1 0 :1:0 
+`uc 1 ADMSK11 1 0 :1:1 
+`uc 1 ADMSK21 1 0 :1:2 
+`uc 1 ADMSK31 1 0 :1:3 
+`uc 1 ACKEN1 1 0 :1:4 
+`uc 1 ACKDT1 1 0 :1:5 
+`uc 1 ACKSTAT1 1 0 :1:6 
+`uc 1 GCEN1 1 0 :1:7 
+]
+[s S1132 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN1 1 0 :1:1 
+`uc 1 PEN1 1 0 :1:2 
+`uc 1 RCEN1 1 0 :1:3 
+`uc 1 ADMSK41 1 0 :1:4 
+`uc 1 ADMSK51 1 0 :1:5 
+]
+[u S1139 . 1 `S1104 1 . 1 0 `S1113 1 . 1 0 `S1116 1 . 1 0 `S1123 1 . 1 0 `S1132 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES1139  1 e 1 @3991 ]
+"18197
+[v _SSP1CON3 SSP1CON3 `VEuc  1 e 1 @3992 ]
+"18258
+[v _RC1REG RC1REG `VEuc  1 e 1 @3993 ]
+"18295
+[v _TX1REG TX1REG `VEuc  1 e 1 @3994 ]
+"18338
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @3995 ]
+"18375
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @3996 ]
+"18412
+[v _RC1STA RC1STA `VEuc  1 e 1 @3997 ]
+[s S1558 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"18445
+[s S1567 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S1570 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S1573 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S1575 . 1 `S1558 1 . 1 0 `S1567 1 . 1 0 `S1570 1 . 1 0 `S1573 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES1575  1 e 1 @3997 ]
+"18585
+[v _TX1STA TX1STA `VEuc  1 e 1 @3998 ]
+"18740
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @3999 ]
+"24804
+[v _TMR0L TMR0L `VEuc  1 e 1 @4051 ]
+"24941
+[v _TMR0H TMR0H `VEuc  1 e 1 @4052 ]
+"25194
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @4053 ]
+[s S1739 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T016BIT 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"25214
+[s S1745 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+[u S1750 . 1 `S1739 1 . 1 0 `S1745 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES1750  1 e 1 @4053 ]
+"25258
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @4054 ]
+[s S29 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"26082
+[s S37 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S41 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S45 . 1 `S29 1 . 1 0 `S37 1 . 1 0 `S41 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES45  1 e 1 @4082 ]
+"27772
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"77 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\EEPROM.h
+[v _eeprom_currAddr eeprom_currAddr `ui  1 e 2 0 ]
+"21 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X/HX_DeviceProperties.h
+[v _hx_outDataIndex hx_outDataIndex `uc  1 e 1 0 ]
+"22
+[v _hx_outData hx_outData `[64]uc  1 e 64 0 ]
+"23
+[v _hx_mainDataIndex hx_mainDataIndex `uc  1 e 1 0 ]
+"24
+[v _hx_mainData hx_mainData `[61]uc  1 e 61 0 ]
+"30
+[v _hx_inDataIndex hx_inDataIndex `uc  1 e 1 0 ]
+"31
+[v _hx_inData hx_inData `[64]uc  1 e 64 0 ]
+"35
+[v _hx_checksum hx_checksum `uc  1 e 1 0 ]
+"36
+[v _hx_pcCmd hx_pcCmd `uc  1 e 1 0 ]
+"37
+[v _hx_pktCmd hx_pktCmd `uc  1 e 1 0 ]
+"38
+[v _hx_state hx_state `uc  1 e 1 0 ]
+"39
+[v _hx_pktState hx_pktState `uc  1 e 1 0 ]
+"42
+[v _hx_rxFullPktFlag hx_rxFullPktFlag `uc  1 e 1 0 ]
+"43
+[v _hx_startMain hx_startMain `uc  1 e 1 0 ]
+"45
+[v _hx_txPacketFlag hx_txPacketFlag `uc  1 e 1 0 ]
+"48
+[v _hx_debugVar hx_debugVar `uc  1 e 1 0 ]
+"49
+[v _hx_abort hx_abort `uc  1 e 1 0 ]
+"61 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/eusart1.c
+[v _eusart1TxHead eusart1TxHead `uc  1 s 1 eusart1TxHead ]
+"62
+[v _eusart1TxTail eusart1TxTail `uc  1 s 1 eusart1TxTail ]
+"63
+[v _eusart1TxBuffer eusart1TxBuffer `[64]uc  1 s 64 eusart1TxBuffer ]
+"64
+[v _eusart1TxBufferRemaining eusart1TxBufferRemaining `VEuc  1 e 1 0 ]
+"66
+[v _eusart1RxHead eusart1RxHead `uc  1 s 1 eusart1RxHead ]
+"67
+[v _eusart1RxTail eusart1RxTail `uc  1 s 1 eusart1RxTail ]
+"69
+[v _eusart1RxCount eusart1RxCount `VEuc  1 e 1 0 ]
+[s S936 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"184 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/i2c1.c
+[s S948 . 5 `uc 1 count 1 0 `*.39S936 1 ptrb_list 2 1 `*.39E11599 1 pTrFlag 2 3 ]
+[v _i2c1_tr_queue i2c1_tr_queue `[1]S948  1 s 5 i2c1_tr_queue ]
+"185
+[s S952 . 1 `uc 1 full 1 0 :1:0 
+`uc 1 empty 1 0 :1:1 
+`uc 1 reserved 1 0 :6:2 
+]
+[u S956 . 1 `S952 1 s 1 0 `uc 1 status 1 0 ]
+[s S959 . 7 `*.39S948 1 pTrTail 2 0 `*.39S948 1 pTrHead 2 2 `S956 1 trStatus 1 4 `uc 1 i2cDoneFlag 1 5 `uc 1 i2cErrors 1 6 ]
+[v _i2c1_object i2c1_object `S959  1 s 7 i2c1_object ]
+"186
+[v _i2c1_state i2c1_state `E11667  1 s 1 i2c1_state ]
+"187
+[v _i2c1_trb_count i2c1_trb_count `uc  1 s 1 i2c1_trb_count ]
+"189
+[v _p_i2c1_trb_current p_i2c1_trb_current `*.39S936  1 s 2 p_i2c1_trb_current ]
+"190
+[v _p_i2c1_current p_i2c1_current `*.39S948  1 s 2 p_i2c1_current ]
+"57 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/tmr0.c
+[v _timer0ReloadVal16bit timer0ReloadVal16bit `VEui  1 e 2 0 ]
+"63
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.38(v  1 e 3 0 ]
+"57 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"144
+} 0
+"3 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\HX_SPP_CARBON.c
+[v _run_SPPCarbon_test run_SPPCarbon_test `(v  1 e 1 0 ]
+{
+"5
+[v run_SPPCarbon_test@numTxBytes numTxBytes `uc  1 a 1 41 ]
+"6
+[v run_SPPCarbon_test@numRxBytes numRxBytes `uc  1 a 1 40 ]
+"7
+[v run_SPPCarbon_test@returnValue returnValue `uc  1 a 1 39 ]
+"4
+[v run_SPPCarbon_test@hx_inData hx_inData `*.39uc  1 p 2 36 ]
+"3
+[v run_SPPCarbon_test@size size `uc  1 p 1 38 ]
+"109
+} 0
+"146
+[v _hxSPPCarbonWrite_test hxSPPCarbonWrite_test `(v  1 e 1 0 ]
+{
+[v hxSPPCarbonWrite_test@numTX numTX `uc  1 a 1 wreg ]
+"148
+[v hxSPPCarbonWrite_test@returnValue returnValue `uc  1 a 1 21 ]
+"146
+[v hxSPPCarbonWrite_test@numTX numTX `uc  1 a 1 wreg ]
+[v hxSPPCarbonWrite_test@txBuffer txBuffer `*.39uc  1 p 2 16 ]
+[v hxSPPCarbonWrite_test@rxBuffer rxBuffer `*.39uc  1 p 2 18 ]
+"149
+[v hxSPPCarbonWrite_test@numTX numTX `uc  1 a 1 20 ]
+"158
+} 0
+"112
+[v _hxSPPCarbonWriteAndVerity_test hxSPPCarbonWriteAndVerity_test `(v  1 e 1 0 ]
+{
+[v hxSPPCarbonWriteAndVerity_test@numTX numTX `uc  1 a 1 wreg ]
+"133
+[v hxSPPCarbonWriteAndVerity_test@i i `uc  1 a 1 34 ]
+"115
+[v hxSPPCarbonWriteAndVerity_test@tempValue tempValue `uc  1 a 1 35 ]
+"114
+[v hxSPPCarbonWriteAndVerity_test@returnValue returnValue `uc  1 a 1 32 ]
+"112
+[v hxSPPCarbonWriteAndVerity_test@numTX numTX `uc  1 a 1 wreg ]
+[v hxSPPCarbonWriteAndVerity_test@txBuffer txBuffer `*.39uc  1 p 2 26 ]
+[v hxSPPCarbonWriteAndVerity_test@rxBuffer rxBuffer `*.39uc  1 p 2 28 ]
+"116
+[v hxSPPCarbonWriteAndVerity_test@numTX numTX `uc  1 a 1 33 ]
+"143
+} 0
+"377
+[v _hxSPPCarbonWriteReg_test hxSPPCarbonWriteReg_test `(uc  1 e 1 0 ]
+{
+[v hxSPPCarbonWriteReg_test@numTX numTX `uc  1 a 1 wreg ]
+"440
+[v hxSPPCarbonWriteReg_test@j_746 j `uc  1 a 1 14 ]
+"422
+[v hxSPPCarbonWriteReg_test@i i `uc  1 a 1 13 ]
+"407
+[v hxSPPCarbonWriteReg_test@j j `uc  1 a 1 12 ]
+"379
+[v hxSPPCarbonWriteReg_test@tempByte tempByte `uc  1 a 1 15 ]
+"380
+[v hxSPPCarbonWriteReg_test@oddParityCalc oddParityCalc `uc  1 a 1 11 ]
+"381
+[v hxSPPCarbonWriteReg_test@tempHxState tempHxState `uc  1 a 1 10 ]
+"377
+[v hxSPPCarbonWriteReg_test@numTX numTX `uc  1 a 1 wreg ]
+[v hxSPPCarbonWriteReg_test@txBuffer txBuffer `*.39uc  1 p 2 7 ]
+"380
+[v hxSPPCarbonWriteReg_test@numTX numTX `uc  1 a 1 9 ]
+"479
+} 0
+"161
+[v _hxSPPCarbonRead_test hxSPPCarbonRead_test `(v  1 e 1 0 ]
+{
+[v hxSPPCarbonRead_test@numTX numTX `uc  1 a 1 wreg ]
+"163
+[v hxSPPCarbonRead_test@returnValue returnValue `uc  1 a 1 32 ]
+"161
+[v hxSPPCarbonRead_test@numTX numTX `uc  1 a 1 wreg ]
+[v hxSPPCarbonRead_test@numRX numRX `uc  1 p 1 26 ]
+[v hxSPPCarbonRead_test@txBuffer txBuffer `*.39uc  1 p 2 27 ]
+[v hxSPPCarbonRead_test@rxBuffer rxBuffer `*.39uc  1 p 2 29 ]
+"164
+[v hxSPPCarbonRead_test@numTX numTX `uc  1 a 1 31 ]
+"172
+} 0
+"175
+[v _hxSPPCarbonReadReg_test hxSPPCarbonReadReg_test `(uc  1 e 1 0 ]
+{
+[v hxSPPCarbonReadReg_test@numTX numTX `uc  1 a 1 wreg ]
+"288
+[v hxSPPCarbonReadReg_test@j_737 j `uc  1 a 1 21 ]
+"244
+[v hxSPPCarbonReadReg_test@j_735 j `uc  1 a 1 19 ]
+"284
+[v hxSPPCarbonReadReg_test@i_736 i `uc  1 a 1 20 ]
+"226
+[v hxSPPCarbonReadReg_test@i i `uc  1 a 1 18 ]
+"211
+[v hxSPPCarbonReadReg_test@j j `uc  1 a 1 17 ]
+"180
+[v hxSPPCarbonReadReg_test@readbackTimer readbackTimer `ui  1 a 2 14 ]
+"177
+[v hxSPPCarbonReadReg_test@tempByte tempByte `uc  1 a 1 25 ]
+"178
+[v hxSPPCarbonReadReg_test@readbackCommState readbackCommState `uc  1 a 1 24 ]
+"183
+[v hxSPPCarbonReadReg_test@tempHxState tempHxState `uc  1 a 1 23 ]
+"179
+[v hxSPPCarbonReadReg_test@bitVal bitVal `uc  1 a 1 22 ]
+"181
+[v hxSPPCarbonReadReg_test@oddParityCalc oddParityCalc `uc  1 a 1 16 ]
+"182
+[v hxSPPCarbonReadReg_test@portAVal portAVal `uc  1 a 1 12 ]
+"175
+[v hxSPPCarbonReadReg_test@numTX numTX `uc  1 a 1 wreg ]
+[v hxSPPCarbonReadReg_test@numRX numRX `uc  1 p 1 7 ]
+[v hxSPPCarbonReadReg_test@txBuffer txBuffer `*.39uc  1 p 2 8 ]
+[v hxSPPCarbonReadReg_test@rxBuffer rxBuffer `*.39uc  1 p 2 10 ]
+"181
+[v hxSPPCarbonReadReg_test@numTX numTX `uc  1 a 1 13 ]
+"374
+} 0
+"483
+[v _hxSPPCarbonProgram_test hxSPPCarbonProgram_test `(v  1 e 1 0 ]
+{
+[v hxSPPCarbonProgram_test@numTX numTX `uc  1 a 1 wreg ]
+"544
+[v hxSPPCarbonProgram_test@j_755 j `uc  1 a 1 15 ]
+"526
+[v hxSPPCarbonProgram_test@i i `uc  1 a 1 14 ]
+"511
+[v hxSPPCarbonProgram_test@j j `uc  1 a 1 13 ]
+"485
+[v hxSPPCarbonProgram_test@tempByte tempByte `uc  1 a 1 16 ]
+"486
+[v hxSPPCarbonProgram_test@oddParityCalc oddParityCalc `uc  1 a 1 12 ]
+"483
+[v hxSPPCarbonProgram_test@numTX numTX `uc  1 a 1 wreg ]
+[v hxSPPCarbonProgram_test@txBuffer txBuffer `*.39uc  1 p 2 7 ]
+[v hxSPPCarbonProgram_test@rxBuffer rxBuffer `*.39uc  1 p 2 9 ]
+"486
+[v hxSPPCarbonProgram_test@numTX numTX `uc  1 a 1 11 ]
+"590
+} 0
+"593
+[v _hxSPPCarbonCheckBusy_test hxSPPCarbonCheckBusy_test `(v  1 e 1 0 ]
+{
+[v hxSPPCarbonCheckBusy_test@numTX numTX `uc  1 a 1 wreg ]
+"710
+[v hxSPPCarbonCheckBusy_test@j_771 j `uc  1 a 1 22 ]
+"663
+[v hxSPPCarbonCheckBusy_test@j_769 j `uc  1 a 1 20 ]
+"706
+[v hxSPPCarbonCheckBusy_test@i_770 i `uc  1 a 1 21 ]
+"645
+[v hxSPPCarbonCheckBusy_test@i i `uc  1 a 1 19 ]
+"630
+[v hxSPPCarbonCheckBusy_test@j j `uc  1 a 1 18 ]
+"598
+[v hxSPPCarbonCheckBusy_test@readbackTimer readbackTimer `ui  1 a 2 15 ]
+"595
+[v hxSPPCarbonCheckBusy_test@tempByte tempByte `uc  1 a 1 26 ]
+"596
+[v hxSPPCarbonCheckBusy_test@readbackCommState readbackCommState `uc  1 a 1 25 ]
+"600
+[v hxSPPCarbonCheckBusy_test@portAVal portAVal `uc  1 a 1 24 ]
+"597
+[v hxSPPCarbonCheckBusy_test@bitVal bitVal `uc  1 a 1 23 ]
+"599
+[v hxSPPCarbonCheckBusy_test@oddParityCalc oddParityCalc `uc  1 a 1 17 ]
+"593
+[v hxSPPCarbonCheckBusy_test@numTX numTX `uc  1 a 1 wreg ]
+[v hxSPPCarbonCheckBusy_test@numRX numRX `uc  1 p 1 7 ]
+[v hxSPPCarbonCheckBusy_test@txBuffer txBuffer `*.39uc  1 p 2 8 ]
+[v hxSPPCarbonCheckBusy_test@rxBuffer rxBuffer `*.39uc  1 p 2 10 ]
+"599
+[v hxSPPCarbonCheckBusy_test@numTX numTX `uc  1 a 1 14 ]
+"792
+} 0
+"795
+[v _hxOddParityCalc hxOddParityCalc `(uc  1 e 1 0 ]
+{
+"802
+[v hxOddParityCalc@j j `uc  1 a 1 4 ]
+"799
+[v hxOddParityCalc@i i `uc  1 a 1 3 ]
+"798
+[v hxOddParityCalc@temp temp `uc  1 a 1 6 ]
+"797
+[v hxOddParityCalc@parity parity `uc  1 a 1 5 ]
+"795
+[v hxOddParityCalc@buff buff `*.39uc  1 p 2 0 ]
+[v hxOddParityCalc@size size `uc  1 p 1 2 ]
+"815
+} 0
+"14 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\HX_I2C.c
+[v _run_I2C run_I2C `(v  1 e 1 0 ]
+{
+"45
+[v run_I2C@i i `i  1 a 2 32 ]
+"20
+[v run_I2C@tx_arr tx_arr `[256]uc  1 a 256 0 ]
+"22
+[v run_I2C@data_index data_index `ui  1 a 2 41 ]
+"19
+[v run_I2C@slaveAddr slaveAddr `ui  1 a 2 36 ]
+"25
+[v run_I2C@debugArr debugArr `*.2uc  1 a 2 30 ]
+"16
+[v run_I2C@mode mode `uc  1 a 1 40 ]
+"18
+[v run_I2C@numRx numRx `uc  1 a 1 39 ]
+"17
+[v run_I2C@numTx numTx `uc  1 a 1 38 ]
+"23
+[v run_I2C@calc_checksum calc_checksum `uc  1 a 1 35 ]
+"21
+[v run_I2C@checksum checksum `uc  1 a 1 34 ]
+"15
+[v run_I2C@hx_inData hx_inData `*.39uc  1 p 2 24 ]
+"14
+[v run_I2C@size size `uc  1 p 1 26 ]
+"119
+} 0
+"14 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\HX_ASL_BORON.c
+[v _run_ASLBoron run_ASLBoron `(v  1 e 1 0 ]
+{
+"46
+[v run_ASLBoron@i i `uc  1 a 1 13 ]
+"20
+[v run_ASLBoron@cnfg_arr cnfg_arr `[256]uc  1 a 256 0 ]
+"21
+[v run_ASLBoron@data_index data_index `ui  1 a 2 16 ]
+"22
+[v run_ASLBoron@rpt_run rpt_run `[2]uc  1 a 2 7 ]
+"16
+[v run_ASLBoron@mode_run mode_run `uc  1 a 1 15 ]
+"19
+[v run_ASLBoron@cnfg_cnt cnfg_cnt `uc  1 a 1 14 ]
+"24
+[v run_ASLBoron@calc_checksum calc_checksum `uc  1 a 1 12 ]
+"23
+[v run_ASLBoron@checksum checksum `uc  1 a 1 11 ]
+"18
+[v run_ASLBoron@cnfg_run cnfg_run `uc  1 a 1 10 ]
+"17
+[v run_ASLBoron@test_run test_run `uc  1 a 1 9 ]
+"15
+[v run_ASLBoron@hx_inData hx_inData `*.39uc  1 p 2 59 ]
+"14
+[v run_ASLBoron@size size `uc  1 p 1 61 ]
+"94
+} 0
+"96
+[v _write_ASLBoron_test write_ASLBoron_test `(v  1 e 1 0 ]
+{
+[v write_ASLBoron_test@run_test run_test `uc  1 a 1 wreg ]
+"98
+[v write_ASLBoron_test@j j `i  1 a 2 57 ]
+[v write_ASLBoron_test@i i `i  1 a 2 55 ]
+"96
+[v write_ASLBoron_test@run_test run_test `uc  1 a 1 wreg ]
+[v write_ASLBoron_test@run_rpt run_rpt `*.39uc  1 p 2 47 ]
+[v write_ASLBoron_test@rxBuffer rxBuffer `*.39uc  1 p 2 49 ]
+"100
+[v write_ASLBoron_test@run_test run_test `uc  1 a 1 54 ]
+"128
+} 0
+"173
+[v _ASLB_test1 ASLB_test1 `(v  1 e 1 0 ]
+{
+"184
+[v ASLB_test1@ramWrMsg ramWrMsg `[6]uc  1 a 6 31 ]
+"192
+[v ASLB_test1@ramRdMsg ramRdMsg `[5]uc  1 a 5 37 ]
+"199
+[v ASLB_test1@ramReadback ramReadback `[4]uc  1 a 4 26 ]
+"177
+[v ASLB_test1@rx_index rx_index `uc  1 a 1 46 ]
+"176
+[v ASLB_test1@rd_status rd_status `uc  1 a 1 45 ]
+"175
+[v ASLB_test1@wr_status wr_status `uc  1 a 1 44 ]
+"181
+[v ASLB_test1@ramAddrLow ramAddrLow `uc  1 a 1 43 ]
+"180
+[v ASLB_test1@ramAddrHigh ramAddrHigh `uc  1 a 1 42 ]
+"182
+[v ASLB_test1@ramData ramData `uc  1 a 1 30 ]
+"173
+[v ASLB_test1@rxBuffer rxBuffer `*.39uc  1 p 2 24 ]
+"240
+} 0
+"76 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\Utils.c
+[v _calcChecksum calcChecksum `(uc  1 e 1 0 ]
+{
+"79
+[v calcChecksum@i i `uc  1 a 1 3 ]
+"78
+[v calcChecksum@temp_checksum temp_checksum `uc  1 a 1 4 ]
+"76
+[v calcChecksum@data data `*.39uc  1 p 2 0 ]
+[v calcChecksum@size size `uc  1 p 1 2 ]
+"85
+} 0
+"165 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\HX_ASL_BORON.c
+[v _ASLB_test0 ASLB_test0 `(v  1 e 1 0 ]
+{
+"167
+[v ASLB_test0@rx_index rx_index `uc  1 a 1 31 ]
+"165
+[v ASLB_test0@rxBuffer rxBuffer `*.39uc  1 p 2 0 ]
+"172
+} 0
+"253
+[v _ARDUINO_test_debug ARDUINO_test_debug `(v  1 e 1 0 ]
+{
+"255
+[v ARDUINO_test_debug@ardDebugVal ardDebugVal `*.2uc  1 a 2 28 ]
+"253
+[v ARDUINO_test_debug@rxBuffer rxBuffer `*.39uc  1 p 2 24 ]
+"276
+} 0
+"4 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\Utils.c
+[v _writeI2C writeI2C `(uc  1 e 1 0 ]
+{
+"7
+[v writeI2C@timeOut timeOut `ui  1 a 2 21 ]
+"6
+[v writeI2C@status status `E11599  1 a 1 23 ]
+"4
+[v writeI2C@txData txData `*.39uc  1 p 2 16 ]
+[v writeI2C@size size `uc  1 p 1 18 ]
+[v writeI2C@slaveAddr slaveAddr `ui  1 p 2 19 ]
+"40
+} 0
+"598 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/i2c1.c
+[v _I2C1_MasterWrite I2C1_MasterWrite `(v  1 e 1 0 ]
+{
+"599
+[v I2C1_MasterWrite@pdata pdata `*.39uc  1 p 2 9 ]
+"600
+[v I2C1_MasterWrite@length length `uc  1 p 1 11 ]
+"601
+[v I2C1_MasterWrite@address address `ui  1 p 2 12 ]
+"602
+[v I2C1_MasterWrite@pflag pflag `*.39E11599  1 p 2 14 ]
+[s S936 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"604
+[v I2C1_MasterWrite@trBlock trBlock `S936  1 s 5 trBlock ]
+"617
+} 0
+"707
+[v _I2C1_MasterWriteTRBBuild I2C1_MasterWriteTRBBuild `(v  1 e 1 0 ]
+{
+[s S936 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"708
+[v I2C1_MasterWriteTRBBuild@ptrb ptrb `*.39S936  1 p 2 0 ]
+"709
+[v I2C1_MasterWriteTRBBuild@pdata pdata `*.39uc  1 p 2 2 ]
+"710
+[v I2C1_MasterWriteTRBBuild@length length `uc  1 p 1 4 ]
+"711
+[v I2C1_MasterWriteTRBBuild@address address `ui  1 p 2 5 ]
+"716
+} 0
+"43 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\Utils.c
+[v _readI2C readI2C `(uc  1 e 1 0 ]
+{
+"46
+[v readI2C@timeOut timeOut `ui  1 a 2 21 ]
+"45
+[v readI2C@status status `E11599  1 a 1 23 ]
+"43
+[v readI2C@rxData rxData `*.39uc  1 p 2 16 ]
+[v readI2C@numOfRx numOfRx `uc  1 p 1 18 ]
+[v readI2C@slaveAddr slaveAddr `ui  1 p 2 19 ]
+"74
+} 0
+"619 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/i2c1.c
+[v _I2C1_MasterRead I2C1_MasterRead `(v  1 e 1 0 ]
+{
+"620
+[v I2C1_MasterRead@pdata pdata `*.39uc  1 p 2 9 ]
+"621
+[v I2C1_MasterRead@length length `uc  1 p 1 11 ]
+"622
+[v I2C1_MasterRead@address address `ui  1 p 2 12 ]
+"623
+[v I2C1_MasterRead@pflag pflag `*.39E11599  1 p 2 14 ]
+[s S936 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"625
+[v I2C1_MasterRead@trBlock trBlock `S936  1 s 5 trBlock ]
+"639
+} 0
+"641
+[v _I2C1_MasterTRBInsert I2C1_MasterTRBInsert `(v  1 e 1 0 ]
+{
+"642
+[v I2C1_MasterTRBInsert@count count `uc  1 a 1 wreg ]
+[v I2C1_MasterTRBInsert@count count `uc  1 a 1 wreg ]
+[s S936 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"643
+[v I2C1_MasterTRBInsert@ptrb_list ptrb_list `*.39S936  1 p 2 0 ]
+"644
+[v I2C1_MasterTRBInsert@pflag pflag `*.39E11599  1 p 2 2 ]
+"648
+[v I2C1_MasterTRBInsert@count count `uc  1 a 1 4 ]
+"692
+} 0
+"694
+[v _I2C1_MasterReadTRBBuild I2C1_MasterReadTRBBuild `(v  1 e 1 0 ]
+{
+[s S936 . 5 `ui 1 address 2 0 `uc 1 length 1 2 `*.39uc 1 pbuffer 2 3 ]
+"695
+[v I2C1_MasterReadTRBBuild@ptrb ptrb `*.39S936  1 p 2 0 ]
+"696
+[v I2C1_MasterReadTRBBuild@pdata pdata `*.39uc  1 p 2 2 ]
+"697
+[v I2C1_MasterReadTRBBuild@length length `uc  1 p 1 4 ]
+"698
+[v I2C1_MasterReadTRBBuild@address address `ui  1 p 2 5 ]
+"705
+} 0
+"152 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\HX_ASL_BORON.c
+[v _write_ASLBoron_cstm_cnfg write_ASLBoron_cstm_cnfg `(v  1 e 1 0 ]
+{
+"154
+[v write_ASLBoron_cstm_cnfg@rx_index rx_index `uc  1 a 1 31 ]
+"152
+[v write_ASLBoron_cstm_cnfg@cnfg_arr cnfg_arr `*.39uc  1 p 2 0 ]
+[v write_ASLBoron_cstm_cnfg@cnfg_arr_size cnfg_arr_size `ui  1 p 2 2 ]
+[v write_ASLBoron_cstm_cnfg@rxBuffer rxBuffer `*.39uc  1 p 2 4 ]
+"163
+} 0
+"131
+[v _write_ASLBoron_cnfg write_ASLBoron_cnfg `(v  1 e 1 0 ]
+{
+[v write_ASLBoron_cnfg@run_cnfg run_cnfg `uc  1 a 1 wreg ]
+[v write_ASLBoron_cnfg@run_cnfg run_cnfg `uc  1 a 1 wreg ]
+[v write_ASLBoron_cnfg@rxBuffer rxBuffer `*.39uc  1 p 2 2 ]
+[v write_ASLBoron_cnfg@run_cnfg run_cnfg `uc  1 a 1 31 ]
+"150
+} 0
+"247
+[v _ASLB_cnfg1 ASLB_cnfg1 `(v  1 e 1 0 ]
+{
+[v ASLB_cnfg1@rxBuffer rxBuffer `*.39uc  1 p 2 0 ]
+"250
+} 0
+"242
+[v _ASLB_cnfg0 ASLB_cnfg0 `(v  1 e 1 0 ]
+{
+[v ASLB_cnfg0@rxBuffer rxBuffer `*.39uc  1 p 2 0 ]
+"245
+} 0
+"229 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\HX_CommInterface.c
+[v _hxHandleTxUART hxHandleTxUART `(v  1 e 1 0 ]
+{
+"233
+[v hxHandleTxUART@i i `i  1 a 2 6 ]
+"242
+} 0
+"266
+[v _hxStopTimer hxStopTimer `(v  1 e 1 0 ]
+{
+"270
+} 0
+"119 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/tmr0.c
+[v _TMR0_Write16bitTimer TMR0_Write16bitTimer `(v  1 e 1 0 ]
+{
+[v TMR0_Write16bitTimer@timerVal timerVal `ui  1 p 2 0 ]
+"124
+} 0
+"100
+[v _TMR0_StopTimer TMR0_StopTimer `(v  1 e 1 0 ]
+{
+"104
+} 0
+"132 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 31 ]
+"153
+} 0
+"115 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"124
+} 0
+"65 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"150
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.3v  1 p 3 0 ]
+"152
+} 0
+"51 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"103
+[v PIN_MANAGER_Initialize@state state `uc  1 a 1 31 ]
+"121
+} 0
+"126 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"138
+} 0
+"51 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"198 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/i2c1.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"222
+} 0
+"75 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"110
+} 0
+"18 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\HX_CommInterface.c
+[v _HX_Initialize HX_Initialize `(v  1 e 1 0 ]
+{
+"26
+} 0
+"279
+[v _hxFlushOutputBuffer hxFlushOutputBuffer `(v  1 e 1 0 ]
+{
+"283
+} 0
+"285
+[v _hxFlushMainDataBuffer hxFlushMainDataBuffer `(v  1 e 1 0 ]
+{
+"289
+} 0
+"272
+[v _hxFlushInputBuffer hxFlushInputBuffer `(v  1 e 1 0 ]
+{
+"277
+} 0
+"302
+[v _hxClearArray hxClearArray `(v  1 e 1 0 ]
+{
+"304
+[v hxClearArray@i i `uc  1 a 1 31 ]
+"302
+[v hxClearArray@arr arr `*.39uc  1 p 2 0 ]
+[v hxClearArray@size size `uc  1 p 1 2 ]
+"308
+} 0
+"57 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"84
+} 0
+"133 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"147
+} 0
+"154
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"158
+} 0
+"244 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\HX_CommInterface.c
+[v _hxHandleTmr0 hxHandleTmr0 `(v  1 e 1 0 ]
+{
+"258
+} 0
+"233 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/i2c1.c
+[v _I2C1_ISR I2C1_ISR `(v  1 e 1 0 ]
+{
+"236
+[v I2C1_ISR@pi2c_buf_ptr pi2c_buf_ptr `*.39uc  1 s 2 pi2c_buf_ptr ]
+"237
+[v I2C1_ISR@i2c_address i2c_address `ui  1 s 2 i2c_address ]
+"238
+[v I2C1_ISR@i2c_bytes_left i2c_bytes_left `uc  1 s 1 i2c_bytes_left ]
+"239
+[v I2C1_ISR@i2c_10bit_address_restart i2c_10bit_address_restart `uc  1 s 1 i2c_10bit_address_restart ]
+"561
+} 0
+"581
+[v _I2C1_Stop I2C1_Stop `(v  1 e 1 0 ]
+{
+[v I2C1_Stop@completion_code completion_code `E11599  1 a 1 wreg ]
+[v I2C1_Stop@completion_code completion_code `E11599  1 a 1 wreg ]
+"584
+[v I2C1_Stop@completion_code completion_code `E11599  1 a 1 2 ]
+"596
+} 0
+"563
+[v _I2C1_FunctionComplete I2C1_FunctionComplete `(v  1 e 1 0 ]
+{
+"579
+} 0
+"728
+[v _I2C1_BusCollisionISR I2C1_BusCollisionISR `(v  1 e 1 0 ]
+{
+"731
+} 0
+"155 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Transmit_ISR EUSART1_Transmit_ISR `(v  1 e 1 0 ]
+{
+"172
+} 0
+"174
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+{
+"186
+} 0
+"28 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\HX_CommInterface.c
+[v _hxISRHandle hxISRHandle `(v  1 e 1 0 ]
+{
+[v hxISRHandle@data data `uc  1 a 1 wreg ]
+[v hxISRHandle@data data `uc  1 a 1 wreg ]
+"30
+[v hxISRHandle@currentByteCounter currentByteCounter `uc  1 s 1 currentByteCounter ]
+"31
+[v hxISRHandle@rxPktSizeFlag rxPktSizeFlag `uc  1 s 1 rxPktSizeFlag ]
+"32
+[v hxISRHandle@rxHxCmdFlag rxHxCmdFlag `uc  1 s 1 rxHxCmdFlag ]
+"33
+[v hxISRHandle@pktSize pktSize `uc  1 s 1 pktSize ]
+"34
+[v hxISRHandle@rxHxPktFlag rxHxPktFlag `uc  1 s 1 rxHxPktFlag ]
+"36
+[v hxISRHandle@data data `uc  1 a 1 16 ]
+"103
+} 0
+"266
+[v i2_hxStopTimer hxStopTimer `(v  1 e 1 0 ]
+{
+"270
+} 0
+"100 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/tmr0.c
+[v i2_TMR0_StopTimer TMR0_StopTimer `(v  1 e 1 0 ]
+{
+"104
+} 0
+"105 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\HX_CommInterface.c
+[v _hxCmdFilter hxCmdFilter `(v  1 e 1 0 ]
+{
+"163
+[v hxCmdFilter@i i `uc  1 a 1 8 ]
+"205
+} 0
+"285
+[v i2_hxFlushMainDataBuffer hxFlushMainDataBuffer `(v  1 e 1 0 ]
+{
+"289
+} 0
+"272
+[v i2_hxFlushInputBuffer hxFlushInputBuffer `(v  1 e 1 0 ]
+{
+"277
+} 0
+"260
+[v _hxStartTimer hxStartTimer `(v  1 e 1 0 ]
+{
+[v hxStartTimer@timerVal timerVal `ui  1 p 2 2 ]
+"264
+} 0
+"119 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\mcc_generated_files/tmr0.c
+[v i2_TMR0_Write16bitTimer TMR0_Write16bitTimer `(v  1 e 1 0 ]
+{
+[v i2TMR0_Write16bitTimer@timerVal timerVal `ui  1 p 2 0 ]
+"124
+} 0
+"94
+[v _TMR0_StartTimer TMR0_StartTimer `(v  1 e 1 0 ]
+{
+"98
+} 0
+"216 C:\Users\maxr\Desktop\MPLABXWorkspace\PIC18F47K40_NEW\HxProgrammerInterface.X\HX_CommInterface.c
+[v _hxSetupPacket2 hxSetupPacket2 `(v  1 e 1 0 ]
+{
+[v hxSetupPacket2@pc_cmd pc_cmd `uc  1 a 1 wreg ]
+"219
+[v hxSetupPacket2@i i `uc  1 a 1 7 ]
+"216
+[v hxSetupPacket2@pc_cmd pc_cmd `uc  1 a 1 wreg ]
+"218
+[v hxSetupPacket2@pc_cmd pc_cmd `uc  1 a 1 6 ]
+"227
+} 0
+"207
+[v _hxSetupPacket1 hxSetupPacket1 `(v  1 e 1 0 ]
+{
+[v hxSetupPacket1@pc_cmd pc_cmd `uc  1 a 1 wreg ]
+[v hxSetupPacket1@pc_cmd pc_cmd `uc  1 a 1 wreg ]
+[v hxSetupPacket1@data data `uc  1 p 1 5 ]
+"209
+[v hxSetupPacket1@pc_cmd pc_cmd `uc  1 a 1 7 ]
+"214
+} 0
+"279
+[v i2_hxFlushOutputBuffer hxFlushOutputBuffer `(v  1 e 1 0 ]
+{
+"283
+} 0
+"302
+[v i2_hxClearArray hxClearArray `(v  1 e 1 0 ]
+{
+[v i2hxClearArray@i hxClearArray `uc  1 a 1 3 ]
+[v i2hxClearArray@arr arr `*.39uc  1 p 2 0 ]
+[v i2hxClearArray@size size `uc  1 p 1 2 ]
+"308
+} 0
+"291
+[v _hxCalcChecksum hxCalcChecksum `(uc  1 e 1 0 ]
+{
+"294
+[v hxCalcChecksum@i i `uc  1 a 1 3 ]
+"293
+[v hxCalcChecksum@temp_checksum temp_checksum `uc  1 a 1 4 ]
+"291
+[v hxCalcChecksum@data data `*.39uc  1 p 2 0 ]
+[v hxCalcChecksum@size size `uc  1 p 1 2 ]
+"300
+} 0
