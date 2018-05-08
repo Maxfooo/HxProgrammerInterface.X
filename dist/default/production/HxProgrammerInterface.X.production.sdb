@@ -1122,17 +1122,17 @@ S_MASTER_10BIT_RESTART 11
 "14 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\HX_I2C.c
 [v _run_I2C run_I2C `(v  1 e 1 0 ]
 {
-"146
+"147
 [v run_I2C@i_2002 i `uc  1 a 1 5 ]
-"125
+"126
 [v run_I2C@i_2001 i `uc  1 a 1 4 ]
 [s S405 TxRxPacket 71 `uc 1 txOrRx 1 0 `ui 1 slaveAddr 2 1 `[64]uc 1 data 64 3 `uc 1 numOfBytes 1 67 `*.2E11632 1 status 3 68 ]
-"30
-[v run_I2C@txPkt txPkt `S405  1 a 71 90 ]
 "31
-[v run_I2C@rxPkt rxPkt `S405  1 a 71 19 ]
+[v run_I2C@rxPkt rxPkt `S405  1 a 71 90 ]
+"30
+[v run_I2C@txPkt txPkt `S405  1 a 71 19 ]
 "32
-[v run_I2C@stream stream `[2]*.39S405  1 a 4 8 ]
+[v run_I2C@stream stream `[2]*.39S405  1 a 4 9 ]
 "21
 [v run_I2C@data_index data_index `ui  1 a 2 17 ]
 "19
@@ -1143,12 +1143,12 @@ S_MASTER_10BIT_RESTART 11
 [v run_I2C@rx_index rx_index `uc  1 a 1 16 ]
 "16
 [v run_I2C@mode mode `uc  1 a 1 15 ]
-"17
-[v run_I2C@numTx numTx `uc  1 a 1 14 ]
-"28
-[v run_I2C@i i `uc  1 a 1 13 ]
 "18
-[v run_I2C@numRx numRx `uc  1 a 1 12 ]
+[v run_I2C@numRx numRx `uc  1 a 1 14 ]
+"17
+[v run_I2C@numTx numTx `uc  1 a 1 13 ]
+"28
+[v run_I2C@i i `uc  1 a 1 8 ]
 "22
 [v run_I2C@calc_checksum calc_checksum `uc  1 a 1 7 ]
 "20
@@ -1157,7 +1157,7 @@ S_MASTER_10BIT_RESTART 11
 [v run_I2C@hx_inData hx_inData `*.39uc  1 p 2 24 ]
 "14
 [v run_I2C@size size `uc  1 p 1 26 ]
-"182
+"183
 } 0
 "44 C:\Users\administrator\Desktop\MAX_WORKSPACE\HxProgrammerInterface.X\Utils.c
 [v _readI2C readI2C `(uc  1 e 1 0 ]

@@ -11134,385 +11134,369 @@ Version 3.2 HI-TECH Software Intermediate Code
 }
 [e :U 1376 ]
 [; ;HX_I2C.c: 61: }
-[; ;HX_I2C.c: 63: for (i = 0; i <= numTx; i++)
-"63
+[; ;HX_I2C.c: 64: for (i = 0; i < numTx; i++)
+"64
 {
 [e = _i -> -> 0 `i `uc ]
 [e $U 1380  ]
-"64
-[e :U 1377 ]
-[; ;HX_I2C.c: 64: {
-{
-[; ;HX_I2C.c: 65: if (i == numTx)
 "65
-[e $ ! == -> _i `i -> _numTx `i 1381  ]
-[; ;HX_I2C.c: 66: {
-"66
+[e :U 1377 ]
+[; ;HX_I2C.c: 65: {
 {
-[; ;HX_I2C.c: 67: txPkt.data[i] = calcChecksum(txPkt.data, numTx);
-"67
-[e = *U + &U . _txPkt 2 * -> _i `ux -> -> # *U &U . _txPkt 2 `ui `ux ( _calcChecksum (2 , &U . _txPkt 2 _numTx ]
-[; ;HX_I2C.c: 68: txPkt.numOfBytes++;
-"68
-[e ++ . _txPkt 3 -> -> 1 `i `uc ]
-"69
-}
-[e :U 1381 ]
-[; ;HX_I2C.c: 69: }
-[; ;HX_I2C.c: 70: txPkt.data[i] = hx_inData[data_index++];
-"70
-[e = *U + &U . _txPkt 2 * -> _i `ux -> -> # *U &U . _txPkt 2 `ui `ux *U + _hx_inData * -> ++ _data_index -> -> 1 `i `ui `ux -> -> # *U _hx_inData `ui `ux ]
+[; ;HX_I2C.c: 71: txPkt.data[i] = hx_inData[data_index++];
 "71
+[e = *U + &U . _txPkt 2 * -> _i `ux -> -> # *U &U . _txPkt 2 `ui `ux *U + _hx_inData * -> ++ _data_index -> -> 1 `i `ui `ux -> -> # *U _hx_inData `ui `ux ]
+"72
 }
-"63
+"64
 [e ++ _i -> -> 1 `i `uc ]
 [e :U 1380 ]
-[e $ <= -> _i `i -> _numTx `i 1377  ]
+[e $ < -> _i `i -> _numTx `i 1377  ]
 [e :U 1378 ]
-"71
+"72
 }
-[; ;HX_I2C.c: 71: }
-[; ;HX_I2C.c: 75: checksum = hx_inData[data_index++];
-"75
-[e = _checksum *U + _hx_inData * -> ++ _data_index -> -> 1 `i `ui `ux -> -> # *U _hx_inData `ui `ux ]
-[; ;HX_I2C.c: 76: calc_checksum = calcChecksum(hx_inData, data_index-1);
+[; ;HX_I2C.c: 72: }
+[; ;HX_I2C.c: 76: checksum = hx_inData[data_index++];
 "76
-[e = _calc_checksum ( _calcChecksum (2 , _hx_inData -> - _data_index -> -> 1 `i `ui `uc ]
-[; ;HX_I2C.c: 77: if (calc_checksum != checksum)
-"77
-[e $ ! != -> _calc_checksum `i -> _checksum `i 1382  ]
-[; ;HX_I2C.c: 78: {
-"78
-{
-[; ;HX_I2C.c: 79: hx_state = 0x20;
-"79
-[e = _hx_state -> -> 32 `i `uc ]
-[; ;HX_I2C.c: 80: return;
-"80
-[e $UE 1373  ]
-"81
-}
-[e :U 1382 ]
-"83
-}
-[; ;HX_I2C.c: 81: }
-[; ;HX_I2C.c: 83: }
-[e $U 1383  ]
-"84
-[e :U 1374 ]
-[; ;HX_I2C.c: 84: else
-[; ;HX_I2C.c: 85: {
-"85
-{
-[; ;HX_I2C.c: 86: checksum = hx_inData[data_index++];
-"86
 [e = _checksum *U + _hx_inData * -> ++ _data_index -> -> 1 `i `ui `ux -> -> # *U _hx_inData `ui `ux ]
-[; ;HX_I2C.c: 87: calc_checksum = calcChecksum(hx_inData, data_index-1);
-"87
+[; ;HX_I2C.c: 77: calc_checksum = calcChecksum(hx_inData, data_index-1);
+"77
 [e = _calc_checksum ( _calcChecksum (2 , _hx_inData -> - _data_index -> -> 1 `i `ui `uc ]
-[; ;HX_I2C.c: 88: if (calc_checksum != checksum)
-"88
-[e $ ! != -> _calc_checksum `i -> _checksum `i 1384  ]
-[; ;HX_I2C.c: 89: {
-"89
+[; ;HX_I2C.c: 78: if (calc_checksum != checksum)
+"78
+[e $ ! != -> _calc_checksum `i -> _checksum `i 1381  ]
+[; ;HX_I2C.c: 79: {
+"79
 {
-[; ;HX_I2C.c: 90: hx_state = 0x20;
-"90
+[; ;HX_I2C.c: 80: hx_state = 0x20;
+"80
 [e = _hx_state -> -> 32 `i `uc ]
-[; ;HX_I2C.c: 91: return;
-"91
+[; ;HX_I2C.c: 81: return;
+"81
 [e $UE 1373  ]
-"92
+"82
 }
-[e :U 1384 ]
+[e :U 1381 ]
+"84
+}
+[; ;HX_I2C.c: 82: }
+[; ;HX_I2C.c: 84: }
+[e $U 1382  ]
+"85
+[e :U 1374 ]
+[; ;HX_I2C.c: 85: else
+[; ;HX_I2C.c: 86: {
+"86
+{
+[; ;HX_I2C.c: 87: checksum = hx_inData[data_index++];
+"87
+[e = _checksum *U + _hx_inData * -> ++ _data_index -> -> 1 `i `ui `ux -> -> # *U _hx_inData `ui `ux ]
+[; ;HX_I2C.c: 88: calc_checksum = calcChecksum(hx_inData, data_index-1);
+"88
+[e = _calc_checksum ( _calcChecksum (2 , _hx_inData -> - _data_index -> -> 1 `i `ui `uc ]
+[; ;HX_I2C.c: 89: if (calc_checksum != checksum)
+"89
+[e $ ! != -> _calc_checksum `i -> _checksum `i 1383  ]
+[; ;HX_I2C.c: 90: {
+"90
+{
+[; ;HX_I2C.c: 91: hx_state = 0x20;
+"91
+[e = _hx_state -> -> 32 `i `uc ]
+[; ;HX_I2C.c: 92: return;
+"92
+[e $UE 1373  ]
 "93
 }
 [e :U 1383 ]
-[; ;HX_I2C.c: 92: }
+"94
+}
+[e :U 1382 ]
 [; ;HX_I2C.c: 93: }
-[; ;HX_I2C.c: 96: if (mode == 0x00)
-"96
-[e $ ! == -> _mode `i -> 0 `i 1385  ]
-[; ;HX_I2C.c: 97: {
+[; ;HX_I2C.c: 94: }
+[; ;HX_I2C.c: 97: if (mode == 0x00)
 "97
-{
-[; ;HX_I2C.c: 98: streamI2C(&stream[0], 1);
+[e $ ! == -> _mode `i -> 0 `i 1384  ]
+[; ;HX_I2C.c: 98: {
 "98
+{
+[; ;HX_I2C.c: 99: streamI2C(&stream[0], 1);
+"99
 [e ( _streamI2C (2 , &U *U + &U _stream * -> -> -> 0 `i `ui `ux -> -> # *U &U _stream `ui `ux -> -> 1 `i `uc ]
-[; ;HX_I2C.c: 100: if (*txPkt.status == I2C1_MESSAGE_FAIL)
-"100
-[e $ ! == -> *U . _txPkt 4 `i -> . `E11753 1 `i 1386  ]
-[; ;HX_I2C.c: 101: {
+[; ;HX_I2C.c: 101: if (*txPkt.status == I2C1_MESSAGE_FAIL)
 "101
-{
-[; ;HX_I2C.c: 102: hx_mainData[0] = 0x41;
+[e $ ! == -> *U . _txPkt 4 `i -> . `E11753 1 `i 1385  ]
+[; ;HX_I2C.c: 102: {
 "102
-[e = *U + &U _hx_mainData * -> -> -> 0 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 65 `i `uc ]
-[; ;HX_I2C.c: 103: hx_mainDataIndex++;
+{
+[; ;HX_I2C.c: 103: hx_mainData[0] = 0x41;
 "103
-[e ++ _hx_mainDataIndex -> -> 1 `i `uc ]
-[; ;HX_I2C.c: 104: hx_state = 0x10;
+[e = *U + &U _hx_mainData * -> -> -> 0 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 65 `i `uc ]
+[; ;HX_I2C.c: 104: hx_mainDataIndex++;
 "104
-[e = _hx_state -> -> 16 `i `uc ]
-[; ;HX_I2C.c: 105: return;
+[e ++ _hx_mainDataIndex -> -> 1 `i `uc ]
+[; ;HX_I2C.c: 105: hx_state = 0x10;
 "105
-[e $UE 1373  ]
+[e = _hx_state -> -> 16 `i `uc ]
+[; ;HX_I2C.c: 106: return;
 "106
+[e $UE 1373  ]
+"107
 }
-[e :U 1386 ]
-[; ;HX_I2C.c: 106: }
-[; ;HX_I2C.c: 108: hx_mainData[0] = 0x10;
-"108
-[e = *U + &U _hx_mainData * -> -> -> 0 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 16 `i `uc ]
-[; ;HX_I2C.c: 109: hx_mainDataIndex++;
-"109
-[e ++ _hx_mainDataIndex -> -> 1 `i `uc ]
-[; ;HX_I2C.c: 110: hx_state = 0x10;
-"110
-[e = _hx_state -> -> 16 `i `uc ]
-"111
-}
-[; ;HX_I2C.c: 111: }
-[e $U 1387  ]
-"112
 [e :U 1385 ]
-[; ;HX_I2C.c: 112: else if (mode == 0x10)
-[e $ ! == -> _mode `i -> 16 `i 1388  ]
-[; ;HX_I2C.c: 113: {
+[; ;HX_I2C.c: 107: }
+[; ;HX_I2C.c: 109: hx_mainData[0] = 0x10;
+"109
+[e = *U + &U _hx_mainData * -> -> -> 0 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 16 `i `uc ]
+[; ;HX_I2C.c: 110: hx_mainDataIndex++;
+"110
+[e ++ _hx_mainDataIndex -> -> 1 `i `uc ]
+[; ;HX_I2C.c: 111: hx_state = 0x10;
+"111
+[e = _hx_state -> -> 16 `i `uc ]
+"112
+}
+[; ;HX_I2C.c: 112: }
+[e $U 1386  ]
 "113
-{
-[; ;HX_I2C.c: 114: streamI2C(stream, 2);
+[e :U 1384 ]
+[; ;HX_I2C.c: 113: else if (mode == 0x10)
+[e $ ! == -> _mode `i -> 16 `i 1387  ]
+[; ;HX_I2C.c: 114: {
 "114
-[e ( _streamI2C (2 , &U _stream -> -> 2 `i `uc ]
-[; ;HX_I2C.c: 115: if (*txPkt.status == I2C1_MESSAGE_FAIL || *rxPkt.status == I2C1_MESSAGE_FAIL)
+{
+[; ;HX_I2C.c: 115: streamI2C(stream, 2);
 "115
-[e $ ! || == -> *U . _txPkt 4 `i -> . `E11753 1 `i == -> *U . _rxPkt 4 `i -> . `E11753 1 `i 1389  ]
-[; ;HX_I2C.c: 116: {
+[e ( _streamI2C (2 , &U _stream -> -> 2 `i `uc ]
+[; ;HX_I2C.c: 116: if (*txPkt.status == I2C1_MESSAGE_FAIL || *rxPkt.status == I2C1_MESSAGE_FAIL)
 "116
-{
-[; ;HX_I2C.c: 117: hx_mainData[0] = 0x41;
+[e $ ! || == -> *U . _txPkt 4 `i -> . `E11753 1 `i == -> *U . _rxPkt 4 `i -> . `E11753 1 `i 1388  ]
+[; ;HX_I2C.c: 117: {
 "117
-[e = *U + &U _hx_mainData * -> -> -> 0 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 65 `i `uc ]
-[; ;HX_I2C.c: 118: hx_mainDataIndex++;
+{
+[; ;HX_I2C.c: 118: hx_mainData[0] = 0x41;
 "118
-[e ++ _hx_mainDataIndex -> -> 1 `i `uc ]
-[; ;HX_I2C.c: 119: hx_state = 0x10;
-"119
-[e = _hx_state -> -> 16 `i `uc ]
-[; ;HX_I2C.c: 120: return;
-"120
-[e $UE 1373  ]
-"121
-}
-[e :U 1389 ]
-[; ;HX_I2C.c: 121: }
-[; ;HX_I2C.c: 123: rx_index = 0;
-"123
-[e = _rx_index -> -> 0 `i `uc ]
-[; ;HX_I2C.c: 124: hx_mainData[rx_index++] = 0x10;
-"124
-[e = *U + &U _hx_mainData * -> ++ _rx_index -> -> 1 `i `uc `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 16 `i `uc ]
-[; ;HX_I2C.c: 125: for (uint8_t i = 0; i < numRx; i++)
-"125
-{
-[v _i `uc ~T0 @X0 1 a ]
-[e = _i -> -> 0 `i `uc ]
-[e $U 1393  ]
-"126
-[e :U 1390 ]
-[; ;HX_I2C.c: 126: {
-{
-[; ;HX_I2C.c: 127: hx_mainData[rx_index++] = rxPkt.data[i];
-"127
-[e = *U + &U _hx_mainData * -> ++ _rx_index -> -> 1 `i `uc `ux -> -> # *U &U _hx_mainData `ui `ux *U + &U . _rxPkt 2 * -> _i `ux -> -> # *U &U . _rxPkt 2 `ui `ux ]
-"128
-}
-"125
-[e ++ _i -> -> 1 `i `uc ]
-[e :U 1393 ]
-[e $ < -> _i `i -> _numRx `i 1390  ]
-[e :U 1391 ]
-"128
-}
-[; ;HX_I2C.c: 128: }
-[; ;HX_I2C.c: 130: hx_mainDataIndex = rx_index;
-"130
-[e = _hx_mainDataIndex _rx_index ]
-[; ;HX_I2C.c: 131: hx_state = 0x10;
-"131
-[e = _hx_state -> -> 16 `i `uc ]
-"132
-}
-[; ;HX_I2C.c: 132: }
-[e $U 1394  ]
-"133
-[e :U 1388 ]
-[; ;HX_I2C.c: 133: else if (mode == 0x20)
-[e $ ! == -> _mode `i -> 32 `i 1395  ]
-[; ;HX_I2C.c: 134: {
-"134
-{
-[; ;HX_I2C.c: 135: streamI2C(&stream[1], 1);
-"135
-[e ( _streamI2C (2 , &U *U + &U _stream * -> -> -> 1 `i `ui `ux -> -> # *U &U _stream `ui `ux -> -> 1 `i `uc ]
-[; ;HX_I2C.c: 136: if (*rxPkt.status == I2C1_MESSAGE_FAIL)
-"136
-[e $ ! == -> *U . _rxPkt 4 `i -> . `E11753 1 `i 1396  ]
-[; ;HX_I2C.c: 137: {
-"137
-{
-[; ;HX_I2C.c: 138: hx_mainData[0] = 0x41;
-"138
 [e = *U + &U _hx_mainData * -> -> -> 0 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 65 `i `uc ]
-[; ;HX_I2C.c: 139: hx_mainDataIndex++;
-"139
+[; ;HX_I2C.c: 119: hx_mainDataIndex++;
+"119
 [e ++ _hx_mainDataIndex -> -> 1 `i `uc ]
-[; ;HX_I2C.c: 140: hx_state = 0x10;
-"140
+[; ;HX_I2C.c: 120: hx_state = 0x10;
+"120
 [e = _hx_state -> -> 16 `i `uc ]
-[; ;HX_I2C.c: 141: return;
-"141
+[; ;HX_I2C.c: 121: return;
+"121
 [e $UE 1373  ]
-"142
+"122
 }
-[e :U 1396 ]
-[; ;HX_I2C.c: 142: }
-[; ;HX_I2C.c: 144: rx_index = 0;
-"144
+[e :U 1388 ]
+[; ;HX_I2C.c: 122: }
+[; ;HX_I2C.c: 124: rx_index = 0;
+"124
 [e = _rx_index -> -> 0 `i `uc ]
-[; ;HX_I2C.c: 145: hx_mainData[rx_index++] = 0x10;
-"145
+[; ;HX_I2C.c: 125: hx_mainData[rx_index++] = 0x10;
+"125
 [e = *U + &U _hx_mainData * -> ++ _rx_index -> -> 1 `i `uc `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 16 `i `uc ]
-[; ;HX_I2C.c: 146: for (uint8_t i = 0; i < numRx; i++)
-"146
+[; ;HX_I2C.c: 126: for (uint8_t i = 0; i < numRx; i++)
+"126
 {
 [v _i `uc ~T0 @X0 1 a ]
 [e = _i -> -> 0 `i `uc ]
-[e $U 1400  ]
-"147
-[e :U 1397 ]
-[; ;HX_I2C.c: 147: {
+[e $U 1392  ]
+"127
+[e :U 1389 ]
+[; ;HX_I2C.c: 127: {
 {
-[; ;HX_I2C.c: 148: hx_mainData[rx_index++] = rxPkt.data[i];
-"148
+[; ;HX_I2C.c: 128: hx_mainData[rx_index++] = rxPkt.data[i];
+"128
 [e = *U + &U _hx_mainData * -> ++ _rx_index -> -> 1 `i `uc `ux -> -> # *U &U _hx_mainData `ui `ux *U + &U . _rxPkt 2 * -> _i `ux -> -> # *U &U . _rxPkt 2 `ui `ux ]
-"149
+"129
 }
-"146
+"126
 [e ++ _i -> -> 1 `i `uc ]
-[e :U 1400 ]
-[e $ < -> _i `i -> _numRx `i 1397  ]
-[e :U 1398 ]
-"149
+[e :U 1392 ]
+[e $ < -> _i `i -> _numRx `i 1389  ]
+[e :U 1390 ]
+"129
 }
-[; ;HX_I2C.c: 149: }
-[; ;HX_I2C.c: 151: hx_mainDataIndex = rx_index;
-"151
+[; ;HX_I2C.c: 129: }
+[; ;HX_I2C.c: 131: hx_mainDataIndex = rx_index;
+"131
 [e = _hx_mainDataIndex _rx_index ]
-[; ;HX_I2C.c: 152: hx_state = 0x10;
-"152
+[; ;HX_I2C.c: 132: hx_state = 0x10;
+"132
 [e = _hx_state -> -> 16 `i `uc ]
-"153
+"133
 }
-[; ;HX_I2C.c: 153: }
-[e $U 1401  ]
-"154
-[e :U 1395 ]
-[; ;HX_I2C.c: 154: else if (mode == 0x30)
-[e $ ! == -> _mode `i -> 48 `i 1402  ]
-[; ;HX_I2C.c: 155: {
-"155
-{
-[; ;HX_I2C.c: 156: hx_mainData[0] = 0x10;
-"156
-[e = *U + &U _hx_mainData * -> -> -> 0 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 16 `i `uc ]
-[; ;HX_I2C.c: 157: hx_mainData[1] = 0xAA;
-"157
-[e = *U + &U _hx_mainData * -> -> -> 1 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 170 `i `uc ]
-[; ;HX_I2C.c: 158: hx_mainDataIndex = 2;
-"158
-[e = _hx_mainDataIndex -> -> 2 `i `uc ]
-[; ;HX_I2C.c: 159: hx_state = 0x10;
-"159
-[e = _hx_state -> -> 16 `i `uc ]
-"160
-}
-[; ;HX_I2C.c: 160: }
-[e $U 1403  ]
-"161
-[e :U 1402 ]
-[; ;HX_I2C.c: 161: else if (mode == 0x31)
-[e $ ! == -> _mode `i -> 49 `i 1404  ]
-[; ;HX_I2C.c: 162: {
-"162
-{
-[; ;HX_I2C.c: 163: *debugArr = 0xBB;
-"163
-[e = *U _debugArr -> -> 187 `i `uc ]
-[; ;HX_I2C.c: 164: writeI2C(debugArr, 1, 0x5a);
-"164
-[e ( _writeI2C (3 , , _debugArr -> -> 1 `i `uc -> -> 90 `i `ui ]
-[; ;HX_I2C.c: 165: hx_mainData[0] = 0x10;
-"165
-[e = *U + &U _hx_mainData * -> -> -> 0 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 16 `i `uc ]
-[; ;HX_I2C.c: 166: hx_mainData[1] = 0xBB;
-"166
-[e = *U + &U _hx_mainData * -> -> -> 1 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 187 `i `uc ]
-[; ;HX_I2C.c: 167: hx_mainDataIndex = 2;
-"167
-[e = _hx_mainDataIndex -> -> 2 `i `uc ]
-[; ;HX_I2C.c: 168: hx_state = 0x10;
-"168
-[e = _hx_state -> -> 16 `i `uc ]
-"169
-}
-[; ;HX_I2C.c: 169: }
-[e $U 1405  ]
-"170
-[e :U 1404 ]
-[; ;HX_I2C.c: 170: else if (mode == 0x32)
-[e $ ! == -> _mode `i -> 50 `i 1406  ]
-[; ;HX_I2C.c: 171: {
-"171
-{
-[; ;HX_I2C.c: 172: readI2C(&hx_mainData[1], 1, 0x5a);
-"172
-[e ( _readI2C (3 , , &U *U + &U _hx_mainData * -> -> -> 1 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 1 `i `uc -> -> 90 `i `ui ]
-[; ;HX_I2C.c: 173: hx_mainData[0] = 0x10;
-"173
-[e = *U + &U _hx_mainData * -> -> -> 0 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 16 `i `uc ]
-[; ;HX_I2C.c: 174: hx_mainDataIndex = 2;
-"174
-[e = _hx_mainDataIndex -> -> 2 `i `uc ]
-[; ;HX_I2C.c: 175: hx_state = 0x10;
-"175
-[e = _hx_state -> -> 16 `i `uc ]
-"176
-}
-[; ;HX_I2C.c: 176: }
-[e $U 1407  ]
-"177
-[e :U 1406 ]
-[; ;HX_I2C.c: 177: else
-[; ;HX_I2C.c: 178: {
-"178
-{
-[; ;HX_I2C.c: 179: hx_state = 0x20;
-"179
-[e = _hx_state -> -> 32 `i `uc ]
-[; ;HX_I2C.c: 180: return;
-"180
-[e $UE 1373  ]
-"181
-}
-[e :U 1407 ]
-[e :U 1405 ]
-[e :U 1403 ]
-[e :U 1401 ]
-[e :U 1394 ]
+[; ;HX_I2C.c: 133: }
+[e $U 1393  ]
+"134
 [e :U 1387 ]
-[; ;HX_I2C.c: 181: }
-[; ;HX_I2C.c: 182: }
+[; ;HX_I2C.c: 134: else if (mode == 0x20)
+[e $ ! == -> _mode `i -> 32 `i 1394  ]
+[; ;HX_I2C.c: 135: {
+"135
+{
+[; ;HX_I2C.c: 136: streamI2C(&stream[1], 1);
+"136
+[e ( _streamI2C (2 , &U *U + &U _stream * -> -> -> 1 `i `ui `ux -> -> # *U &U _stream `ui `ux -> -> 1 `i `uc ]
+[; ;HX_I2C.c: 137: if (*rxPkt.status == I2C1_MESSAGE_FAIL)
+"137
+[e $ ! == -> *U . _rxPkt 4 `i -> . `E11753 1 `i 1395  ]
+[; ;HX_I2C.c: 138: {
+"138
+{
+[; ;HX_I2C.c: 139: hx_mainData[0] = 0x41;
+"139
+[e = *U + &U _hx_mainData * -> -> -> 0 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 65 `i `uc ]
+[; ;HX_I2C.c: 140: hx_mainDataIndex++;
+"140
+[e ++ _hx_mainDataIndex -> -> 1 `i `uc ]
+[; ;HX_I2C.c: 141: hx_state = 0x10;
+"141
+[e = _hx_state -> -> 16 `i `uc ]
+[; ;HX_I2C.c: 142: return;
+"142
+[e $UE 1373  ]
+"143
+}
+[e :U 1395 ]
+[; ;HX_I2C.c: 143: }
+[; ;HX_I2C.c: 145: rx_index = 0;
+"145
+[e = _rx_index -> -> 0 `i `uc ]
+[; ;HX_I2C.c: 146: hx_mainData[rx_index++] = 0x10;
+"146
+[e = *U + &U _hx_mainData * -> ++ _rx_index -> -> 1 `i `uc `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 16 `i `uc ]
+[; ;HX_I2C.c: 147: for (uint8_t i = 0; i < numRx; i++)
+"147
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $U 1399  ]
+"148
+[e :U 1396 ]
+[; ;HX_I2C.c: 148: {
+{
+[; ;HX_I2C.c: 149: hx_mainData[rx_index++] = rxPkt.data[i];
+"149
+[e = *U + &U _hx_mainData * -> ++ _rx_index -> -> 1 `i `uc `ux -> -> # *U &U _hx_mainData `ui `ux *U + &U . _rxPkt 2 * -> _i `ux -> -> # *U &U . _rxPkt 2 `ui `ux ]
+"150
+}
+"147
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 1399 ]
+[e $ < -> _i `i -> _numRx `i 1396  ]
+[e :U 1397 ]
+"150
+}
+[; ;HX_I2C.c: 150: }
+[; ;HX_I2C.c: 152: hx_mainDataIndex = rx_index;
+"152
+[e = _hx_mainDataIndex _rx_index ]
+[; ;HX_I2C.c: 153: hx_state = 0x10;
+"153
+[e = _hx_state -> -> 16 `i `uc ]
+"154
+}
+[; ;HX_I2C.c: 154: }
+[e $U 1400  ]
+"155
+[e :U 1394 ]
+[; ;HX_I2C.c: 155: else if (mode == 0x30)
+[e $ ! == -> _mode `i -> 48 `i 1401  ]
+[; ;HX_I2C.c: 156: {
+"156
+{
+[; ;HX_I2C.c: 157: hx_mainData[0] = 0x10;
+"157
+[e = *U + &U _hx_mainData * -> -> -> 0 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 16 `i `uc ]
+[; ;HX_I2C.c: 158: hx_mainData[1] = 0xAA;
+"158
+[e = *U + &U _hx_mainData * -> -> -> 1 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 170 `i `uc ]
+[; ;HX_I2C.c: 159: hx_mainDataIndex = 2;
+"159
+[e = _hx_mainDataIndex -> -> 2 `i `uc ]
+[; ;HX_I2C.c: 160: hx_state = 0x10;
+"160
+[e = _hx_state -> -> 16 `i `uc ]
+"161
+}
+[; ;HX_I2C.c: 161: }
+[e $U 1402  ]
+"162
+[e :U 1401 ]
+[; ;HX_I2C.c: 162: else if (mode == 0x31)
+[e $ ! == -> _mode `i -> 49 `i 1403  ]
+[; ;HX_I2C.c: 163: {
+"163
+{
+[; ;HX_I2C.c: 164: *debugArr = 0xBB;
+"164
+[e = *U _debugArr -> -> 187 `i `uc ]
+[; ;HX_I2C.c: 165: writeI2C(debugArr, 1, 0x5a);
+"165
+[e ( _writeI2C (3 , , _debugArr -> -> 1 `i `uc -> -> 90 `i `ui ]
+[; ;HX_I2C.c: 166: hx_mainData[0] = 0x10;
+"166
+[e = *U + &U _hx_mainData * -> -> -> 0 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 16 `i `uc ]
+[; ;HX_I2C.c: 167: hx_mainData[1] = 0xBB;
+"167
+[e = *U + &U _hx_mainData * -> -> -> 1 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 187 `i `uc ]
+[; ;HX_I2C.c: 168: hx_mainDataIndex = 2;
+"168
+[e = _hx_mainDataIndex -> -> 2 `i `uc ]
+[; ;HX_I2C.c: 169: hx_state = 0x10;
+"169
+[e = _hx_state -> -> 16 `i `uc ]
+"170
+}
+[; ;HX_I2C.c: 170: }
+[e $U 1404  ]
+"171
+[e :U 1403 ]
+[; ;HX_I2C.c: 171: else if (mode == 0x32)
+[e $ ! == -> _mode `i -> 50 `i 1405  ]
+[; ;HX_I2C.c: 172: {
+"172
+{
+[; ;HX_I2C.c: 173: readI2C(&hx_mainData[1], 1, 0x5a);
+"173
+[e ( _readI2C (3 , , &U *U + &U _hx_mainData * -> -> -> 1 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 1 `i `uc -> -> 90 `i `ui ]
+[; ;HX_I2C.c: 174: hx_mainData[0] = 0x10;
+"174
+[e = *U + &U _hx_mainData * -> -> -> 0 `i `ui `ux -> -> # *U &U _hx_mainData `ui `ux -> -> 16 `i `uc ]
+[; ;HX_I2C.c: 175: hx_mainDataIndex = 2;
+"175
+[e = _hx_mainDataIndex -> -> 2 `i `uc ]
+[; ;HX_I2C.c: 176: hx_state = 0x10;
+"176
+[e = _hx_state -> -> 16 `i `uc ]
+"177
+}
+[; ;HX_I2C.c: 177: }
+[e $U 1406  ]
+"178
+[e :U 1405 ]
+[; ;HX_I2C.c: 178: else
+[; ;HX_I2C.c: 179: {
+"179
+{
+[; ;HX_I2C.c: 180: hx_state = 0x20;
+"180
+[e = _hx_state -> -> 32 `i `uc ]
+[; ;HX_I2C.c: 181: return;
+"181
+[e $UE 1373  ]
 "182
+}
+[e :U 1406 ]
+[e :U 1404 ]
+[e :U 1402 ]
+[e :U 1400 ]
+[e :U 1393 ]
+[e :U 1386 ]
+[; ;HX_I2C.c: 182: }
+[; ;HX_I2C.c: 183: }
+"183
 [e :UE 1373 ]
 }

@@ -60,13 +60,14 @@ void run_I2C(uint8_t hx_inData[], uint8_t size)
             return;
         }
         
-        for (i = 0; i <= numTx; i++)
+        //for (i = 0; i <= numTx; i++)
+        for (i = 0; i < numTx; i++)
         {
-            if (i == numTx)
-            {
-                txPkt.data[i] = calcChecksum(txPkt.data, numTx);
-                txPkt.numOfBytes++;
-            }
+//            if (i == numTx)
+//            {
+//                txPkt.data[i] = calcChecksum(txPkt.data, numTx);
+//                txPkt.numOfBytes++;
+//            }
             txPkt.data[i] = hx_inData[data_index++];
         }
         

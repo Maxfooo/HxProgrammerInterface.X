@@ -14706,13 +14706,11 @@ hx_state = 0x40;
 return;
 }
 
-for (i = 0; i <= numTx; i++)
+
+for (i = 0; i < numTx; i++)
 {
-if (i == numTx)
-{
-txPkt.data[i] = calcChecksum(txPkt.data, numTx);
-txPkt.numOfBytes++;
-}
+
+# 71
 txPkt.data[i] = hx_inData[data_index++];
 }
 
